@@ -1,0 +1,88 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   10 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "is_active_c1_DoorHndDriver"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Ctrl"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Ctrl"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Unfold"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Ctrl.Unfold"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Icebreak"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Ctrl.Unfold.Icebreak"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Fold"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Ctrl.Fold"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "temporalCounter_i1"\
+      Description  "TemporalCounter"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "SI_b_DoorHndUnfoldReq_prev"\
+      Description  "ChangeDetectionDoubleBuffer"\
+      SFName       ""\
+      Path         "SI_b_DoorHndUnfoldReq"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "SI_b_DoorHndUnfoldReq_start"\
+      Description  "ChangeDetectionDoubleBuffer"\
+      SFName       ""\
+      Path         "SI_b_DoorHndUnfoldReq"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "SI_b_DoorHndFoldReq_prev"\
+      Description  "ChangeDetectionDoubleBuffer"\
+      SFName       ""\
+      Path         "SI_b_DoorHndFoldReq"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "SI_b_DoorHndFoldReq_start"\
+      Description  "ChangeDetectionDoubleBuffer"\
+      SFName       ""\
+      Path         "SI_b_DoorHndFoldReq"\
+      SrcLocation  ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction
