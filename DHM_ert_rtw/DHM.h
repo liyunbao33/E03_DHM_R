@@ -3,9 +3,9 @@
  *
  * Code generated for Simulink model 'DHM'.
  *
- * Model version                  : 1.51
+ * Model version                  : 1.55
  * Simulink Coder version         : 9.7 (R2022a) 13-Nov-2021
- * C/C++ source code generated on : Sat Oct  7 00:36:27 2023
+ * C/C++ source code generated on : Mon Oct  9 08:52:34 2023
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: Intel->x86-64 (Windows64)

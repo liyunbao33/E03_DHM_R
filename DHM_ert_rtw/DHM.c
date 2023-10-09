@@ -3,9 +3,9 @@
  *
  * Code generated for Simulink model 'DHM'.
  *
- * Model version                  : 1.51
+ * Model version                  : 1.55
  * Simulink Coder version         : 9.7 (R2022a) 13-Nov-2021
- * C/C++ source code generated on : Sat Oct  7 00:36:27 2023
+ * C/C++ source code generated on : Mon Oct  9 08:52:34 2023
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: Intel->x86-64 (Windows64)
@@ -916,8 +916,8 @@ void DHM_Step(void)                    /* Explicit Task: DHM_Step */
    */
   DHM_Y.VeOUT_DHM_FRDoorHandleSts_sig_V = rtb_SO_m_DoorHndPosSts_h;
 
-  /* Outport: '<Root>/VeINP_DHM_FRDoorHandleLrnSts_sig_VeINP_DHM_FRDoorHandleLrnSts_sig' incorporates:
-   *  DataTypeConversion: '<S3>/Data Type Conversion10'
+  /* DataTypeConversion: '<S3>/Data Type Conversion10' incorporates:
+   *  DataTypeConversion: '<S3>/Data Type Conversion3'
    */
   DHM_Y.VeINP_DHM_FRDoorHandleLrnSts_si = DHM_B.SO_m_LearnSts_g;
 
@@ -935,8 +935,8 @@ void DHM_Step(void)                    /* Explicit Task: DHM_Step */
                  &SO_b_CorrectPosToMax_d, &DHM_B.SO_m_LearnSts,
                  &DHM_Y.VsINP_DHM_RRDoorHandleToEE_sig_, &DHM_DW.sf_LearnLogic_m);
 
-  /* Outport: '<Root>/VeINP_DHM_RRDoorHandleLrnSts_sig_VeINP_DHM_RRDoorHandleLrnSts_sig' incorporates:
-   *  DataTypeConversion: '<S3>/Data Type Conversion11'
+  /* DataTypeConversion: '<S3>/Data Type Conversion11' incorporates:
+   *  DataTypeConversion: '<S3>/Data Type Conversion4'
    */
   DHM_Y.VeINP_DHM_RRDoorHandleLrnSts_si = DHM_B.SO_m_LearnSts;
 
@@ -954,6 +954,16 @@ void DHM_Step(void)                    /* Explicit Task: DHM_Step */
    *  DataTypeConversion: '<S3>/Data Type Conversion2'
    */
   DHM_Y.VeOUT_DHM_RRDoorHandleSts_sig_V = rtb_SO_m_DoorHndPosSts_h;
+
+  /* Outport: '<Root>/VeOUT_DHM_FRDoorHandleLrnStsEE_sig_VeOUT_DHM_FRDoorHandleLrnStsEE_sig' incorporates:
+   *  DataTypeConversion: '<S3>/Data Type Conversion3'
+   */
+  DHM_Y.VeOUT_DHM_FRDoorHandleLrnStsEE_ = DHM_Y.VeINP_DHM_FRDoorHandleLrnSts_si;
+
+  /* Outport: '<Root>/VeOUT_DHM_RRDoorHandleLrnStsEE_sig_VeOUT_DHM_RRDoorHandleLrnStsEE_sig' incorporates:
+   *  DataTypeConversion: '<S3>/Data Type Conversion4'
+   */
+  DHM_Y.VeOUT_DHM_RRDoorHandleLrnStsEE_ = DHM_Y.VeINP_DHM_RRDoorHandleLrnSts_si;
 
   /* Chart: '<S8>/CtrlLogic' incorporates:
    *  Constant: '<S4>/Constant'
@@ -1041,12 +1051,6 @@ void DHM_Step(void)                    /* Explicit Task: DHM_Step */
   DHM_DW.UnitDelay1_DSTATE_b = DHM_B.SO_e_MotorCmd;
 
   /* End of Outputs for RootInportFunctionCallGenerator generated from: '<Root>/DHM_Step' */
-
-  /* Outport: '<Root>/VeOUT_DHM_FRDoorHandleLrnStsEE_sig_VeOUT_DHM_FRDoorHandleLrnStsEE_sig' */
-  DHM_Y.VeOUT_DHM_FRDoorHandleLrnStsEE_ = 0U;
-
-  /* Outport: '<Root>/VeOUT_DHM_RRDoorHandleLrnStsEE_sig_VeOUT_DHM_RRDoorHandleLrnStsEE_sig' */
-  DHM_Y.VeOUT_DHM_RRDoorHandleLrnStsEE_ = 0U;
 }
 
 /* Model initialize function */
