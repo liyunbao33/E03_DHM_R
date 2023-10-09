@@ -3,9 +3,9 @@
  *
  * Code generated for Simulink model 'DHM'.
  *
- * Model version                  : 1.51
+ * Model version                  : 1.63
  * Simulink Coder version         : 9.7 (R2022a) 13-Nov-2021
- * C/C++ source code generated on : Sat Oct  7 08:48:48 2023
+ * C/C++ source code generated on : Mon Oct  9 09:17:59 2023
  *
  * Target selection: autosar.tlc
  * Embedded hardware selection: Intel->x86-64 (Windows64)
@@ -1106,17 +1106,21 @@ void DHM_Step(void)                    /* Explicit Task: DHM_Step */
     Rte_Write_VeINP_DHM_RRDoorHandleLrnSts_sig_VeINP_DHM_RRDoorHandleLrnSts_sig
     (DHM_B.SO_m_LearnSts);
 
-  /* End of Outputs for RootInportFunctionCallGenerator generated from: '<Root>/DHM_Step' */
-
-  /* Outport: '<Root>/VeOUT_DHM_FRDoorHandleLrnStsEE_sig_VeOUT_DHM_FRDoorHandleLrnStsEE_sig' */
+  /* Outport: '<Root>/VeOUT_DHM_FRDoorHandleLrnStsEE_sig_VeOUT_DHM_FRDoorHandleLrnStsEE_sig' incorporates:
+   *  DataTypeConversion: '<S3>/Data Type Conversion3'
+   */
   (void)
     Rte_Write_VeOUT_DHM_FRDoorHandleLrnStsEE_sig_VeOUT_DHM_FRDoorHandleLrnStsEE_sig
-    (0U);
+    (DHM_B.SO_m_LearnSts_g);
 
-  /* Outport: '<Root>/VeOUT_DHM_RRDoorHandleLrnStsEE_sig_VeOUT_DHM_RRDoorHandleLrnStsEE_sig' */
+  /* Outport: '<Root>/VeOUT_DHM_RRDoorHandleLrnStsEE_sig_VeOUT_DHM_RRDoorHandleLrnStsEE_sig' incorporates:
+   *  DataTypeConversion: '<S3>/Data Type Conversion4'
+   */
   (void)
     Rte_Write_VeOUT_DHM_RRDoorHandleLrnStsEE_sig_VeOUT_DHM_RRDoorHandleLrnStsEE_sig
-    (0U);
+    (DHM_B.SO_m_LearnSts);
+
+  /* End of Outputs for RootInportFunctionCallGenerator generated from: '<Root>/DHM_Step' */
 }
 
 /* Model initialize function */
