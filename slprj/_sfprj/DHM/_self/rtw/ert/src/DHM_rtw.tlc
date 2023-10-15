@@ -19,10 +19,6 @@
 %function GlobalMachineInitializer(block) void
   %openfile tmpFcnBuf
   %<DumpMachineInitializer(block)>\
-  %if FILE_EXISTS("DoorHndReq_rtw.tlc")
-    %generatefile "machineSource" "DoorHndReq_rtw.tlc"
-    %<GENERATE_TYPE(block,"DumpMachineInitializer","machineSource")>\
-  %endif
   %if FILE_EXISTS("DoorHndDriver_rtw.tlc")
     %generatefile "machineSource" "DoorHndDriver_rtw.tlc"
     %<GENERATE_TYPE(block,"DumpMachineInitializer","machineSource")>\
@@ -44,8 +40,6 @@
 %function GlobalMachineTerminator(block) void
   %openfile tmpFcnBuf
   %<DumpMachineTerminator(block)>\
-  %generatefile "machineSource" "DoorHndReq_rtw.tlc"
-  %<GENERATE_TYPE(block,"DumpMachineTerminator","machineSource")>\
   %generatefile "machineSource" "DoorHndDriver_rtw.tlc"
   %<GENERATE_TYPE(block,"DumpMachineTerminator","machineSource")>\
   %closefile tmpFcnBuf
