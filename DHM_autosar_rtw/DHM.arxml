@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 Auto generated XML Component Description for model DHM
-Model version                : 1.69
+Model version                : 1.7
 Simulink Coder version       : Simulink Coder 9.7 (R2022a) 13-Nov-2021
-XML source code generated on : Thu Oct 12 20:09:06 2023
-Model Checksum               : 2472397578 2837093858 2154433520 2182021032
+XML source code generated on : Tue Oct 17 22:16:31 2023
+Model Checksum               : 1624356965 3075016132 3046529034 2310100637
 -->
 <AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-3-1.xsd">
     <AR-PACKAGES>
         <AR-PACKAGE>
             <SHORT-NAME>Components</SHORT-NAME>
             <ELEMENTS>
-                <APPLICATION-SW-COMPONENT-TYPE UUID="668617e1-d26d-41b2-b166-81cffd0ebf06">
+                <APPLICATION-SW-COMPONENT-TYPE UUID="4f8d32bd-87ba-4984-afe2-1003a13fcf7b">
                     <SHORT-NAME>DHM</SHORT-NAME>
                     <PORTS>
-                        <R-PORT-PROTOTYPE UUID="1662e21a-cedf-4c1c-a8a0-c4b007457143">
+                        <R-PORT-PROTOTYPE UUID="76a5810f-8b26-4d9a-947d-0a288b494ea5">
                             <SHORT-NAME>VsINP_HWA_PassHandleHall_sig</SHORT-NAME>
                             <REQUIRED-COM-SPECS>
                                 <NONQUEUED-RECEIVER-COM-SPEC>
@@ -41,7 +41,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                             </REQUIRED-COM-SPECS>
                             <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VsINP_HWA_PassHandleHall_sig</REQUIRED-INTERFACE-TREF>
                         </R-PORT-PROTOTYPE>
-                        <R-PORT-PROTOTYPE UUID="84293de0-87a0-4890-bf8d-019420990c74">
+                        <R-PORT-PROTOTYPE UUID="1f0d3eef-08b3-4c5c-9a63-f664f1b4e99c">
                             <SHORT-NAME>VsINP_HWA_RRHandleHall_sig</SHORT-NAME>
                             <REQUIRED-COM-SPECS>
                                 <NONQUEUED-RECEIVER-COM-SPEC>
@@ -68,7 +68,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                             </REQUIRED-COM-SPECS>
                             <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VsINP_HWA_RRHandleHall_sig</REQUIRED-INTERFACE-TREF>
                         </R-PORT-PROTOTYPE>
-                        <R-PORT-PROTOTYPE UUID="4d2ccec5-61f8-485d-973c-6dc55178e8cb">
+                        <R-PORT-PROTOTYPE UUID="99b15dc8-372e-4625-8792-d7b3c6090934">
                             <SHORT-NAME>VeINP_CAN_RDoorHandleReq_sig</SHORT-NAME>
                             <REQUIRED-COM-SPECS>
                                 <NONQUEUED-RECEIVER-COM-SPEC>
@@ -95,7 +95,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                             </REQUIRED-COM-SPECS>
                             <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VeINP_CAN_RDoorHandleReq_sig</REQUIRED-INTERFACE-TREF>
                         </R-PORT-PROTOTYPE>
-                        <R-PORT-PROTOTYPE UUID="65e7fd10-0c46-4139-857d-928b629aa2a7">
+                        <R-PORT-PROTOTYPE UUID="63f07071-a6b3-4f86-9ca2-458d0145c124">
                             <SHORT-NAME>VeINP_CAN_RRDoorHandleReq_sig</SHORT-NAME>
                             <REQUIRED-COM-SPECS>
                                 <NONQUEUED-RECEIVER-COM-SPEC>
@@ -122,7 +122,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                             </REQUIRED-COM-SPECS>
                             <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VeINP_CAN_RRDoorHandleReq_sig</REQUIRED-INTERFACE-TREF>
                         </R-PORT-PROTOTYPE>
-                        <R-PORT-PROTOTYPE UUID="ce64c76d-05a8-498d-8cb4-8c50a53d93d7">
+                        <R-PORT-PROTOTYPE UUID="8dc36ce5-ab5c-46e2-a24f-29aa80bf75b9">
                             <SHORT-NAME>VsINP_EPRM_FRDoorHandleFromEE_sig</SHORT-NAME>
                             <REQUIRED-COM-SPECS>
                                 <NONQUEUED-RECEIVER-COM-SPEC>
@@ -149,7 +149,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                             </REQUIRED-COM-SPECS>
                             <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VsINP_EPRM_FRDoorHandleFromEE_sig</REQUIRED-INTERFACE-TREF>
                         </R-PORT-PROTOTYPE>
-                        <R-PORT-PROTOTYPE UUID="f8be0f80-788e-4009-bdff-e5ea0015d778">
+                        <R-PORT-PROTOTYPE UUID="f10ed004-ad2e-4337-ae67-799f1e40d67e">
                             <SHORT-NAME>VsINP_EPRM_RRDoorHandleFromEE_sig</SHORT-NAME>
                             <REQUIRED-COM-SPECS>
                                 <NONQUEUED-RECEIVER-COM-SPEC>
@@ -176,7 +176,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                             </REQUIRED-COM-SPECS>
                             <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VsINP_EPRM_RRDoorHandleFromEE_sig</REQUIRED-INTERFACE-TREF>
                         </R-PORT-PROTOTYPE>
-                        <R-PORT-PROTOTYPE UUID="d6e7f212-8d16-44d2-a1a8-d77b877f99e8">
+                        <R-PORT-PROTOTYPE UUID="0f5c5617-c102-424a-b445-015593e08b2e">
                             <SHORT-NAME>VbINP_CAN_DoorHandleLrnReq_flg</SHORT-NAME>
                             <REQUIRED-COM-SPECS>
                                 <NONQUEUED-RECEIVER-COM-SPEC>
@@ -203,7 +203,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                             </REQUIRED-COM-SPECS>
                             <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VbINP_CAN_DoorHandleLrnReq_flg</REQUIRED-INTERFACE-TREF>
                         </R-PORT-PROTOTYPE>
-                        <R-PORT-PROTOTYPE UUID="f77476dd-5165-4740-99e7-eda8dc8c87b4">
+                        <R-PORT-PROTOTYPE UUID="38f16db1-0033-443b-a445-2da5a9ea66dd">
                             <SHORT-NAME>VeINP_EPRM_FRDoorHandleLrnStsFromEE_sig</SHORT-NAME>
                             <REQUIRED-COM-SPECS>
                                 <NONQUEUED-RECEIVER-COM-SPEC>
@@ -230,7 +230,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                             </REQUIRED-COM-SPECS>
                             <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VeINP_EPRM_FRDoorHandleLrnStsFromEE_sig</REQUIRED-INTERFACE-TREF>
                         </R-PORT-PROTOTYPE>
-                        <R-PORT-PROTOTYPE UUID="84bd0275-6718-49a9-8bd5-b53fae27c035">
+                        <R-PORT-PROTOTYPE UUID="76ede80b-4216-4244-8f22-c14772b6350d">
                             <SHORT-NAME>VeINP_EPRM_RRDoorHandleLrnStsFromEE_sig</SHORT-NAME>
                             <REQUIRED-COM-SPECS>
                                 <NONQUEUED-RECEIVER-COM-SPEC>
@@ -257,7 +257,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                             </REQUIRED-COM-SPECS>
                             <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VeINP_EPRM_RRDoorHandleLrnStsFromEE_sig</REQUIRED-INTERFACE-TREF>
                         </R-PORT-PROTOTYPE>
-                        <P-PORT-PROTOTYPE UUID="1f7ef412-e1cf-44ed-9224-3b4c50d85573">
+                        <P-PORT-PROTOTYPE UUID="a6e6174e-b80c-47c4-a291-a35326f617d7">
                             <SHORT-NAME>VeOUT_DHM_FRDoorHandleSts_sig</SHORT-NAME>
                             <PROVIDED-COM-SPECS>
                                 <NONQUEUED-SENDER-COM-SPEC>
@@ -280,7 +280,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                             </PROVIDED-COM-SPECS>
                             <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VeOUT_DHM_FRDoorHandleSts_sig</PROVIDED-INTERFACE-TREF>
                         </P-PORT-PROTOTYPE>
-                        <P-PORT-PROTOTYPE UUID="62f49cc6-c066-4573-978e-ef23881557d9">
+                        <P-PORT-PROTOTYPE UUID="85013705-5482-4de4-8a11-3f0292635dd0">
                             <SHORT-NAME>VeOUT_DHM_RRDoorHandleSts_sig</SHORT-NAME>
                             <PROVIDED-COM-SPECS>
                                 <NONQUEUED-SENDER-COM-SPEC>
@@ -303,7 +303,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                             </PROVIDED-COM-SPECS>
                             <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VeOUT_DHM_RRDoorHandleSts_sig</PROVIDED-INTERFACE-TREF>
                         </P-PORT-PROTOTYPE>
-                        <P-PORT-PROTOTYPE UUID="1be47d13-dbd8-4d1d-8ca5-28079202aa40">
+                        <P-PORT-PROTOTYPE UUID="85b5b59c-d214-4073-843d-a0a7cb78d634">
                             <SHORT-NAME>VbOUT_DHM_FRHadUnfold_flg</SHORT-NAME>
                             <PROVIDED-COM-SPECS>
                                 <NONQUEUED-SENDER-COM-SPEC>
@@ -326,7 +326,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                             </PROVIDED-COM-SPECS>
                             <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VbOUT_DHM_FRHadUnfold_flg</PROVIDED-INTERFACE-TREF>
                         </P-PORT-PROTOTYPE>
-                        <P-PORT-PROTOTYPE UUID="65fd6615-c24c-442b-b513-839c2dd1648c">
+                        <P-PORT-PROTOTYPE UUID="3742bb8e-95ed-4160-8944-8291ebda2dc4">
                             <SHORT-NAME>VbOUT_DHM_FRHadFold_flg</SHORT-NAME>
                             <PROVIDED-COM-SPECS>
                                 <NONQUEUED-SENDER-COM-SPEC>
@@ -349,7 +349,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                             </PROVIDED-COM-SPECS>
                             <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VbOUT_DHM_FRHadFold_flg</PROVIDED-INTERFACE-TREF>
                         </P-PORT-PROTOTYPE>
-                        <P-PORT-PROTOTYPE UUID="f388435a-af26-4937-bdb7-c67413e23091">
+                        <P-PORT-PROTOTYPE UUID="9c0c9788-a994-49ee-8aa4-81e16941b56f">
                             <SHORT-NAME>VbOUT_DHM_RRHandleUnfold_flg</SHORT-NAME>
                             <PROVIDED-COM-SPECS>
                                 <NONQUEUED-SENDER-COM-SPEC>
@@ -372,7 +372,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                             </PROVIDED-COM-SPECS>
                             <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VbOUT_DHM_RRHandleUnfold_flg</PROVIDED-INTERFACE-TREF>
                         </P-PORT-PROTOTYPE>
-                        <P-PORT-PROTOTYPE UUID="1776a852-d09d-48d7-b92e-479834d0ac82">
+                        <P-PORT-PROTOTYPE UUID="1957834c-efc4-4f67-96a4-fd0eb386328a">
                             <SHORT-NAME>VbOUT_DHM_RRHandleFold_flg</SHORT-NAME>
                             <PROVIDED-COM-SPECS>
                                 <NONQUEUED-SENDER-COM-SPEC>
@@ -395,11 +395,11 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                             </PROVIDED-COM-SPECS>
                             <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VbOUT_DHM_RRHandleFold_flg</PROVIDED-INTERFACE-TREF>
                         </P-PORT-PROTOTYPE>
-                        <P-PORT-PROTOTYPE UUID="4953ca19-b0f9-4773-9e11-1527679be0ee">
-                            <SHORT-NAME>VsINP_DHM_FRDoorHandleToEE_sig</SHORT-NAME>
+                        <P-PORT-PROTOTYPE UUID="f4f535bc-6aae-48e2-823f-fca1ace0501d">
+                            <SHORT-NAME>VsOUT_DHM_FRDoorHandleToEE_sig</SHORT-NAME>
                             <PROVIDED-COM-SPECS>
                                 <NONQUEUED-SENDER-COM-SPEC>
-                                    <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VsINP_DHM_FRDoorHandleToEE_sig/VsINP_DHM_FRDoorHandleToEE_sig</DATA-ELEMENT-REF>
+                                    <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VsOUT_DHM_FRDoorHandleToEE_sig/VsOUT_DHM_FRDoorHandleToEE_sig</DATA-ELEMENT-REF>
                                     <HANDLE-OUT-OF-RANGE>NONE</HANDLE-OUT-OF-RANGE>
                                     <USES-END-TO-END-PROTECTION>false</USES-END-TO-END-PROTECTION>
                                     <INIT-VALUE>
@@ -416,13 +416,13 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                     </INIT-VALUE>
                                 </NONQUEUED-SENDER-COM-SPEC>
                             </PROVIDED-COM-SPECS>
-                            <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VsINP_DHM_FRDoorHandleToEE_sig</PROVIDED-INTERFACE-TREF>
+                            <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VsOUT_DHM_FRDoorHandleToEE_sig</PROVIDED-INTERFACE-TREF>
                         </P-PORT-PROTOTYPE>
-                        <P-PORT-PROTOTYPE UUID="c142d71d-259e-4081-946c-557f48f5d910">
-                            <SHORT-NAME>VsINP_DHM_RRDoorHandleToEE_sig</SHORT-NAME>
+                        <P-PORT-PROTOTYPE UUID="4caa525a-abd8-43fa-a44a-efd9454ab406">
+                            <SHORT-NAME>VsOUT_DHM_RRDoorHandleToEE_sig</SHORT-NAME>
                             <PROVIDED-COM-SPECS>
                                 <NONQUEUED-SENDER-COM-SPEC>
-                                    <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VsINP_DHM_RRDoorHandleToEE_sig/VsINP_DHM_RRDoorHandleToEE_sig</DATA-ELEMENT-REF>
+                                    <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VsOUT_DHM_RRDoorHandleToEE_sig/VsOUT_DHM_RRDoorHandleToEE_sig</DATA-ELEMENT-REF>
                                     <HANDLE-OUT-OF-RANGE>NONE</HANDLE-OUT-OF-RANGE>
                                     <USES-END-TO-END-PROTECTION>false</USES-END-TO-END-PROTECTION>
                                     <INIT-VALUE>
@@ -439,13 +439,13 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                     </INIT-VALUE>
                                 </NONQUEUED-SENDER-COM-SPEC>
                             </PROVIDED-COM-SPECS>
-                            <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VsINP_DHM_RRDoorHandleToEE_sig</PROVIDED-INTERFACE-TREF>
+                            <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VsOUT_DHM_RRDoorHandleToEE_sig</PROVIDED-INTERFACE-TREF>
                         </P-PORT-PROTOTYPE>
-                        <P-PORT-PROTOTYPE UUID="064a3b44-a8f7-4b39-9d85-99efedd43bbd">
-                            <SHORT-NAME>VeINP_DHM_FRDoorHandleLrnSts_sig</SHORT-NAME>
+                        <P-PORT-PROTOTYPE UUID="983ae9e4-54ec-4d0a-b216-83e7b10a0525">
+                            <SHORT-NAME>VeOUT_DHM_FRDoorHandleLrnSts_sig</SHORT-NAME>
                             <PROVIDED-COM-SPECS>
                                 <NONQUEUED-SENDER-COM-SPEC>
-                                    <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VeINP_DHM_FRDoorHandleLrnSts_sig/VeINP_DHM_FRDoorHandleLrnSts_sig</DATA-ELEMENT-REF>
+                                    <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VeOUT_DHM_FRDoorHandleLrnSts_sig/VeOUT_DHM_FRDoorHandleLrnSts_sig</DATA-ELEMENT-REF>
                                     <HANDLE-OUT-OF-RANGE>NONE</HANDLE-OUT-OF-RANGE>
                                     <USES-END-TO-END-PROTECTION>false</USES-END-TO-END-PROTECTION>
                                     <INIT-VALUE>
@@ -462,13 +462,13 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                     </INIT-VALUE>
                                 </NONQUEUED-SENDER-COM-SPEC>
                             </PROVIDED-COM-SPECS>
-                            <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VeINP_DHM_FRDoorHandleLrnSts_sig</PROVIDED-INTERFACE-TREF>
+                            <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VeOUT_DHM_FRDoorHandleLrnSts_sig</PROVIDED-INTERFACE-TREF>
                         </P-PORT-PROTOTYPE>
-                        <P-PORT-PROTOTYPE UUID="695cc623-195f-4890-aff4-8aebaf517aa1">
-                            <SHORT-NAME>VeINP_DHM_RRDoorHandleLrnSts_sig</SHORT-NAME>
+                        <P-PORT-PROTOTYPE UUID="70b2f3d8-3dc4-4d8b-b87d-af370da9d298">
+                            <SHORT-NAME>VeOUT_DHM_RRDoorHandleLrnSts_sig</SHORT-NAME>
                             <PROVIDED-COM-SPECS>
                                 <NONQUEUED-SENDER-COM-SPEC>
-                                    <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VeINP_DHM_RRDoorHandleLrnSts_sig/VeINP_DHM_RRDoorHandleLrnSts_sig</DATA-ELEMENT-REF>
+                                    <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VeOUT_DHM_RRDoorHandleLrnSts_sig/VeOUT_DHM_RRDoorHandleLrnSts_sig</DATA-ELEMENT-REF>
                                     <HANDLE-OUT-OF-RANGE>NONE</HANDLE-OUT-OF-RANGE>
                                     <USES-END-TO-END-PROTECTION>false</USES-END-TO-END-PROTECTION>
                                     <INIT-VALUE>
@@ -485,9 +485,9 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                     </INIT-VALUE>
                                 </NONQUEUED-SENDER-COM-SPEC>
                             </PROVIDED-COM-SPECS>
-                            <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VeINP_DHM_RRDoorHandleLrnSts_sig</PROVIDED-INTERFACE-TREF>
+                            <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VeOUT_DHM_RRDoorHandleLrnSts_sig</PROVIDED-INTERFACE-TREF>
                         </P-PORT-PROTOTYPE>
-                        <P-PORT-PROTOTYPE UUID="f1cef76a-660b-42e0-aaad-5b79820fedab">
+                        <P-PORT-PROTOTYPE UUID="a2adb5db-626f-4d75-9d29-b7fc9636292c">
                             <SHORT-NAME>VeOUT_DHM_FRDoorHandleLrnStsEE_sig</SHORT-NAME>
                             <PROVIDED-COM-SPECS>
                                 <NONQUEUED-SENDER-COM-SPEC>
@@ -510,7 +510,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                             </PROVIDED-COM-SPECS>
                             <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/Interfaces/VeOUT_DHM_FRDoorHandleLrnStsEE_sig</PROVIDED-INTERFACE-TREF>
                         </P-PORT-PROTOTYPE>
-                        <P-PORT-PROTOTYPE UUID="ade9c7f8-ece0-4ef2-9038-c153d056c539">
+                        <P-PORT-PROTOTYPE UUID="5979c8c6-3b03-4ec6-b148-fd35d9fd997f">
                             <SHORT-NAME>VeOUT_DHM_RRDoorHandleLrnStsEE_sig</SHORT-NAME>
                             <PROVIDED-COM-SPECS>
                                 <NONQUEUED-SENDER-COM-SPEC>
@@ -535,17 +535,17 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                         </P-PORT-PROTOTYPE>
                     </PORTS>
                     <INTERNAL-BEHAVIORS>
-                        <SWC-INTERNAL-BEHAVIOR UUID="443b57d9-5227-4125-9217-5cab42250ed7">
+                        <SWC-INTERNAL-BEHAVIOR UUID="87d11425-67c7-4c21-b38b-dda6378ab0ac">
                             <SHORT-NAME>DHM</SHORT-NAME>
                             <DATA-TYPE-MAPPING-REFS>
                                 <DATA-TYPE-MAPPING-REF DEST="DATA-TYPE-MAPPING-SET">/DataTypes/DataTypeMappings/DataTypeMappingsSet</DATA-TYPE-MAPPING-REF>
                             </DATA-TYPE-MAPPING-REFS>
                             <EVENTS>
-                                <INIT-EVENT UUID="e28486e1-b8c1-4616-ac9d-ff1b8760b76a">
+                                <INIT-EVENT UUID="486d3c76-38ae-4d4d-9990-3e018e08dd5d">
                                     <SHORT-NAME>DHM_InitEvent</SHORT-NAME>
                                     <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/Components/DHM/DHM/DHM_Init</START-ON-EVENT-REF>
                                 </INIT-EVENT>
-                                <TIMING-EVENT UUID="6caa0c02-6c87-4756-ae82-004d2bb99526">
+                                <TIMING-EVENT UUID="78a6f5ce-7c30-47fa-ab43-5f32482a2fc4">
                                     <SHORT-NAME>Event_Runnable_Step</SHORT-NAME>
                                     <START-ON-EVENT-REF DEST="RUNNABLE-ENTITY">/Components/DHM/DHM/DHM_Step</START-ON-EVENT-REF>
                                     <PERIOD>0.01</PERIOD>
@@ -553,74 +553,38 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                             </EVENTS>
                             <HANDLE-TERMINATION-AND-RESTART>NO-SUPPORT</HANDLE-TERMINATION-AND-RESTART>
                             <RUNNABLES>
-                                <RUNNABLE-ENTITY UUID="be7dbc25-a24b-4079-b9de-70f5ed711c60">
+                                <RUNNABLE-ENTITY UUID="59769b5c-df10-48a7-9093-ddb61cefa9f6">
                                     <SHORT-NAME>DHM_Init</SHORT-NAME>
                                     <MINIMUM-START-INTERVAL>0</MINIMUM-START-INTERVAL>
                                     <CAN-BE-INVOKED-CONCURRENTLY>false</CAN-BE-INVOKED-CONCURRENTLY>
                                     <DATA-SEND-POINTS>
-                                        <VARIABLE-ACCESS UUID="00329e58-4aea-5777-ae9a-af92a01e079f">
-                                            <SHORT-NAME>OUT_VbOUT_DHM_FRHadUnfold_flg_VbOUT_DHM_FRHadUnfold_flg</SHORT-NAME>
+                                        <VARIABLE-ACCESS UUID="a60a73cc-005e-5ddf-5721-3930f2e5e890">
+                                            <SHORT-NAME>OUT_VsOUT_DHM_FRDoorHandleToEE_sig_VsOUT_DHM_FRDoorHandleToEE_sig</SHORT-NAME>
                                             <ACCESSED-VARIABLE>
                                                 <AUTOSAR-VARIABLE-IREF>
-                                                    <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/Components/DHM/VbOUT_DHM_FRHadUnfold_flg</PORT-PROTOTYPE-REF>
-                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VbOUT_DHM_FRHadUnfold_flg/VbOUT_DHM_FRHadUnfold_flg</TARGET-DATA-PROTOTYPE-REF>
+                                                    <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/Components/DHM/VsOUT_DHM_FRDoorHandleToEE_sig</PORT-PROTOTYPE-REF>
+                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VsOUT_DHM_FRDoorHandleToEE_sig/VsOUT_DHM_FRDoorHandleToEE_sig</TARGET-DATA-PROTOTYPE-REF>
                                                 </AUTOSAR-VARIABLE-IREF>
                                             </ACCESSED-VARIABLE>
                                         </VARIABLE-ACCESS>
-                                        <VARIABLE-ACCESS UUID="9e8a6190-69d3-5aad-7a4c-b0cc17d9a6cd">
-                                            <SHORT-NAME>OUT_VbOUT_DHM_FRHadFold_flg_VbOUT_DHM_FRHadFold_flg</SHORT-NAME>
+                                        <VARIABLE-ACCESS UUID="313e3ef8-f25e-5d5f-0ece-50b42374290c">
+                                            <SHORT-NAME>OUT_VsOUT_DHM_RRDoorHandleToEE_sig_VsOUT_DHM_RRDoorHandleToEE_sig</SHORT-NAME>
                                             <ACCESSED-VARIABLE>
                                                 <AUTOSAR-VARIABLE-IREF>
-                                                    <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/Components/DHM/VbOUT_DHM_FRHadFold_flg</PORT-PROTOTYPE-REF>
-                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VbOUT_DHM_FRHadFold_flg/VbOUT_DHM_FRHadFold_flg</TARGET-DATA-PROTOTYPE-REF>
-                                                </AUTOSAR-VARIABLE-IREF>
-                                            </ACCESSED-VARIABLE>
-                                        </VARIABLE-ACCESS>
-                                        <VARIABLE-ACCESS UUID="5a563d04-2d31-5fcf-683d-fc63a2c535d6">
-                                            <SHORT-NAME>OUT_VbOUT_DHM_RRHandleUnfold_flg_VbOUT_DHM_RRHandleUnfold_flg</SHORT-NAME>
-                                            <ACCESSED-VARIABLE>
-                                                <AUTOSAR-VARIABLE-IREF>
-                                                    <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/Components/DHM/VbOUT_DHM_RRHandleUnfold_flg</PORT-PROTOTYPE-REF>
-                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VbOUT_DHM_RRHandleUnfold_flg/VbOUT_DHM_RRHandleUnfold_flg</TARGET-DATA-PROTOTYPE-REF>
-                                                </AUTOSAR-VARIABLE-IREF>
-                                            </ACCESSED-VARIABLE>
-                                        </VARIABLE-ACCESS>
-                                        <VARIABLE-ACCESS UUID="2f772e8b-ed15-5393-f02c-fd4ace93e388">
-                                            <SHORT-NAME>OUT_VbOUT_DHM_RRHandleFold_flg_VbOUT_DHM_RRHandleFold_flg</SHORT-NAME>
-                                            <ACCESSED-VARIABLE>
-                                                <AUTOSAR-VARIABLE-IREF>
-                                                    <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/Components/DHM/VbOUT_DHM_RRHandleFold_flg</PORT-PROTOTYPE-REF>
-                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VbOUT_DHM_RRHandleFold_flg/VbOUT_DHM_RRHandleFold_flg</TARGET-DATA-PROTOTYPE-REF>
-                                                </AUTOSAR-VARIABLE-IREF>
-                                            </ACCESSED-VARIABLE>
-                                        </VARIABLE-ACCESS>
-                                        <VARIABLE-ACCESS UUID="e4fa58ea-7614-5c0d-9d7f-8280008a1c17">
-                                            <SHORT-NAME>OUT_VsINP_DHM_FRDoorHandleToEE_sig_VsINP_DHM_FRDoorHandleToEE_sig</SHORT-NAME>
-                                            <ACCESSED-VARIABLE>
-                                                <AUTOSAR-VARIABLE-IREF>
-                                                    <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/Components/DHM/VsINP_DHM_FRDoorHandleToEE_sig</PORT-PROTOTYPE-REF>
-                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VsINP_DHM_FRDoorHandleToEE_sig/VsINP_DHM_FRDoorHandleToEE_sig</TARGET-DATA-PROTOTYPE-REF>
-                                                </AUTOSAR-VARIABLE-IREF>
-                                            </ACCESSED-VARIABLE>
-                                        </VARIABLE-ACCESS>
-                                        <VARIABLE-ACCESS UUID="a79fb208-27c0-5743-3f8b-fc4ecf3d45fd">
-                                            <SHORT-NAME>OUT_VsINP_DHM_RRDoorHandleToEE_sig_VsINP_DHM_RRDoorHandleToEE_sig</SHORT-NAME>
-                                            <ACCESSED-VARIABLE>
-                                                <AUTOSAR-VARIABLE-IREF>
-                                                    <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/Components/DHM/VsINP_DHM_RRDoorHandleToEE_sig</PORT-PROTOTYPE-REF>
-                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VsINP_DHM_RRDoorHandleToEE_sig/VsINP_DHM_RRDoorHandleToEE_sig</TARGET-DATA-PROTOTYPE-REF>
+                                                    <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/Components/DHM/VsOUT_DHM_RRDoorHandleToEE_sig</PORT-PROTOTYPE-REF>
+                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VsOUT_DHM_RRDoorHandleToEE_sig/VsOUT_DHM_RRDoorHandleToEE_sig</TARGET-DATA-PROTOTYPE-REF>
                                                 </AUTOSAR-VARIABLE-IREF>
                                             </ACCESSED-VARIABLE>
                                         </VARIABLE-ACCESS>
                                     </DATA-SEND-POINTS>
                                     <SYMBOL>DHM_Init</SYMBOL>
                                 </RUNNABLE-ENTITY>
-                                <RUNNABLE-ENTITY UUID="5ccc3ddb-dc0b-4d93-9e4b-9add705c46c8">
+                                <RUNNABLE-ENTITY UUID="ae702584-e403-430a-ba63-abc870f8621d">
                                     <SHORT-NAME>DHM_Step</SHORT-NAME>
                                     <MINIMUM-START-INTERVAL>0</MINIMUM-START-INTERVAL>
                                     <CAN-BE-INVOKED-CONCURRENTLY>false</CAN-BE-INVOKED-CONCURRENTLY>
                                     <DATA-RECEIVE-POINT-BY-ARGUMENTS>
-                                        <VARIABLE-ACCESS UUID="da1769ba-3415-53f3-c31d-ff1ecdf1a667">
+                                        <VARIABLE-ACCESS UUID="6e174b3c-2cb9-51a8-7401-f37d0725d775">
                                             <SHORT-NAME>IN_VbINP_CAN_DoorHandleLrnReq_flg_VbINP_CAN_DoorHandleLrnReq_flg</SHORT-NAME>
                                             <ACCESSED-VARIABLE>
                                                 <AUTOSAR-VARIABLE-IREF>
@@ -629,7 +593,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                                 </AUTOSAR-VARIABLE-IREF>
                                             </ACCESSED-VARIABLE>
                                         </VARIABLE-ACCESS>
-                                        <VARIABLE-ACCESS UUID="a0c14378-5b9d-53bc-64c3-70c40b916c0f">
+                                        <VARIABLE-ACCESS UUID="3c5dc2ec-a8cb-564a-9ec4-d746380f64c9">
                                             <SHORT-NAME>IN_VeINP_CAN_RDoorHandleReq_sig_VeINP_CAN_RDoorHandleReq_sig</SHORT-NAME>
                                             <ACCESSED-VARIABLE>
                                                 <AUTOSAR-VARIABLE-IREF>
@@ -638,7 +602,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                                 </AUTOSAR-VARIABLE-IREF>
                                             </ACCESSED-VARIABLE>
                                         </VARIABLE-ACCESS>
-                                        <VARIABLE-ACCESS UUID="f9c5c381-97e7-5764-4cdc-c10bfd9bd3d5">
+                                        <VARIABLE-ACCESS UUID="ff1dd90a-d89d-5a15-ae8b-6b4551bf8801">
                                             <SHORT-NAME>IN_VeINP_CAN_RRDoorHandleReq_sig_VeINP_CAN_RRDoorHandleReq_sig</SHORT-NAME>
                                             <ACCESSED-VARIABLE>
                                                 <AUTOSAR-VARIABLE-IREF>
@@ -647,7 +611,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                                 </AUTOSAR-VARIABLE-IREF>
                                             </ACCESSED-VARIABLE>
                                         </VARIABLE-ACCESS>
-                                        <VARIABLE-ACCESS UUID="dea109ea-062f-5207-f3ea-cb3449ca5cc6">
+                                        <VARIABLE-ACCESS UUID="6b34e361-c65f-5b11-f53f-0b3ae0fa1694">
                                             <SHORT-NAME>IN_VeINP_EPRM_FRDoorHandleLrnStsFromEE_sig_VeINP_EPRM_FRDoorHandleLrnStsFromEE_sig</SHORT-NAME>
                                             <ACCESSED-VARIABLE>
                                                 <AUTOSAR-VARIABLE-IREF>
@@ -656,7 +620,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                                 </AUTOSAR-VARIABLE-IREF>
                                             </ACCESSED-VARIABLE>
                                         </VARIABLE-ACCESS>
-                                        <VARIABLE-ACCESS UUID="c1e20988-af0c-5119-7849-e88b88cd355f">
+                                        <VARIABLE-ACCESS UUID="ebcb6712-c24c-5d3b-9677-397ed1ee2564">
                                             <SHORT-NAME>IN_VeINP_EPRM_RRDoorHandleLrnStsFromEE_sig_VeINP_EPRM_RRDoorHandleLrnStsFromEE_sig</SHORT-NAME>
                                             <ACCESSED-VARIABLE>
                                                 <AUTOSAR-VARIABLE-IREF>
@@ -665,7 +629,25 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                                 </AUTOSAR-VARIABLE-IREF>
                                             </ACCESSED-VARIABLE>
                                         </VARIABLE-ACCESS>
-                                        <VARIABLE-ACCESS UUID="da7d8c0a-7f0c-5e04-082b-4d8983a49354">
+                                        <VARIABLE-ACCESS UUID="ff659dab-ddbe-5b84-113b-cdfca523c842">
+                                            <SHORT-NAME>IN_VsINP_EPRM_FRDoorHandleFromEE_sig_VsINP_EPRM_FRDoorHandleFromEE_sig</SHORT-NAME>
+                                            <ACCESSED-VARIABLE>
+                                                <AUTOSAR-VARIABLE-IREF>
+                                                    <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/Components/DHM/VsINP_EPRM_FRDoorHandleFromEE_sig</PORT-PROTOTYPE-REF>
+                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VsINP_EPRM_FRDoorHandleFromEE_sig/VsINP_EPRM_FRDoorHandleFromEE_sig</TARGET-DATA-PROTOTYPE-REF>
+                                                </AUTOSAR-VARIABLE-IREF>
+                                            </ACCESSED-VARIABLE>
+                                        </VARIABLE-ACCESS>
+                                        <VARIABLE-ACCESS UUID="c8caa0a7-0f23-5d5a-26f0-c18d12da6687">
+                                            <SHORT-NAME>IN_VsINP_EPRM_RRDoorHandleFromEE_sig_VsINP_EPRM_RRDoorHandleFromEE_sig</SHORT-NAME>
+                                            <ACCESSED-VARIABLE>
+                                                <AUTOSAR-VARIABLE-IREF>
+                                                    <PORT-PROTOTYPE-REF DEST="R-PORT-PROTOTYPE">/Components/DHM/VsINP_EPRM_RRDoorHandleFromEE_sig</PORT-PROTOTYPE-REF>
+                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VsINP_EPRM_RRDoorHandleFromEE_sig/VsINP_EPRM_RRDoorHandleFromEE_sig</TARGET-DATA-PROTOTYPE-REF>
+                                                </AUTOSAR-VARIABLE-IREF>
+                                            </ACCESSED-VARIABLE>
+                                        </VARIABLE-ACCESS>
+                                        <VARIABLE-ACCESS UUID="f095c657-c8bd-52bd-1bee-57c120205a41">
                                             <SHORT-NAME>IN_VsINP_HWA_PassHandleHall_sig_VsINP_HWA_PassHandleHall_sig</SHORT-NAME>
                                             <ACCESSED-VARIABLE>
                                                 <AUTOSAR-VARIABLE-IREF>
@@ -674,7 +656,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                                 </AUTOSAR-VARIABLE-IREF>
                                             </ACCESSED-VARIABLE>
                                         </VARIABLE-ACCESS>
-                                        <VARIABLE-ACCESS UUID="f4a43b71-36e7-584f-c9b7-12efdf34d127">
+                                        <VARIABLE-ACCESS UUID="13c39a1e-a87a-5bd1-fbe2-e984a9c94133">
                                             <SHORT-NAME>IN_VsINP_HWA_RRHandleHall_sig_VsINP_HWA_RRHandleHall_sig</SHORT-NAME>
                                             <ACCESSED-VARIABLE>
                                                 <AUTOSAR-VARIABLE-IREF>
@@ -685,7 +667,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                         </VARIABLE-ACCESS>
                                     </DATA-RECEIVE-POINT-BY-ARGUMENTS>
                                     <DATA-SEND-POINTS>
-                                        <VARIABLE-ACCESS UUID="e5cc6074-ddc8-576d-36b2-5fb619566d51">
+                                        <VARIABLE-ACCESS UUID="c7c557fb-6f1f-56fc-9c6e-a37ad1f77965">
                                             <SHORT-NAME>OUT_VeOUT_DHM_FRDoorHandleSts_sig_VeOUT_DHM_FRDoorHandleSts_sig</SHORT-NAME>
                                             <ACCESSED-VARIABLE>
                                                 <AUTOSAR-VARIABLE-IREF>
@@ -694,7 +676,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                                 </AUTOSAR-VARIABLE-IREF>
                                             </ACCESSED-VARIABLE>
                                         </VARIABLE-ACCESS>
-                                        <VARIABLE-ACCESS UUID="8c1bdc27-64a3-5433-8a8f-1f8f441c6542">
+                                        <VARIABLE-ACCESS UUID="f40f9c9b-a839-56fb-475a-cd5fae927d8c">
                                             <SHORT-NAME>OUT_VeOUT_DHM_RRDoorHandleSts_sig_VeOUT_DHM_RRDoorHandleSts_sig</SHORT-NAME>
                                             <ACCESSED-VARIABLE>
                                                 <AUTOSAR-VARIABLE-IREF>
@@ -703,7 +685,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                                 </AUTOSAR-VARIABLE-IREF>
                                             </ACCESSED-VARIABLE>
                                         </VARIABLE-ACCESS>
-                                        <VARIABLE-ACCESS UUID="fbbdb410-0550-539c-3d74-17a8998bd7fc">
+                                        <VARIABLE-ACCESS UUID="670f6468-414e-5868-0ff0-cc984bb922ce">
                                             <SHORT-NAME>OUT_VbOUT_DHM_FRHadUnfold_flg_VbOUT_DHM_FRHadUnfold_flg</SHORT-NAME>
                                             <ACCESSED-VARIABLE>
                                                 <AUTOSAR-VARIABLE-IREF>
@@ -712,7 +694,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                                 </AUTOSAR-VARIABLE-IREF>
                                             </ACCESSED-VARIABLE>
                                         </VARIABLE-ACCESS>
-                                        <VARIABLE-ACCESS UUID="126ae027-ccbc-5c81-9a83-1251eb0c1082">
+                                        <VARIABLE-ACCESS UUID="33cd68ba-7872-5a21-703a-18c414f0aa5c">
                                             <SHORT-NAME>OUT_VbOUT_DHM_FRHadFold_flg_VbOUT_DHM_FRHadFold_flg</SHORT-NAME>
                                             <ACCESSED-VARIABLE>
                                                 <AUTOSAR-VARIABLE-IREF>
@@ -721,7 +703,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                                 </AUTOSAR-VARIABLE-IREF>
                                             </ACCESSED-VARIABLE>
                                         </VARIABLE-ACCESS>
-                                        <VARIABLE-ACCESS UUID="f566f65e-f365-5907-01a2-564b37777197">
+                                        <VARIABLE-ACCESS UUID="bbbe100f-1079-560b-8281-b22821bd5f91">
                                             <SHORT-NAME>OUT_VbOUT_DHM_RRHandleUnfold_flg_VbOUT_DHM_RRHandleUnfold_flg</SHORT-NAME>
                                             <ACCESSED-VARIABLE>
                                                 <AUTOSAR-VARIABLE-IREF>
@@ -730,7 +712,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                                 </AUTOSAR-VARIABLE-IREF>
                                             </ACCESSED-VARIABLE>
                                         </VARIABLE-ACCESS>
-                                        <VARIABLE-ACCESS UUID="2c8a2300-0a96-512f-b8b0-13f08f05f1f8">
+                                        <VARIABLE-ACCESS UUID="93f1e437-541a-57a9-bc9d-5f550dee48c6">
                                             <SHORT-NAME>OUT_VbOUT_DHM_RRHandleFold_flg_VbOUT_DHM_RRHandleFold_flg</SHORT-NAME>
                                             <ACCESSED-VARIABLE>
                                                 <AUTOSAR-VARIABLE-IREF>
@@ -739,43 +721,43 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                                 </AUTOSAR-VARIABLE-IREF>
                                             </ACCESSED-VARIABLE>
                                         </VARIABLE-ACCESS>
-                                        <VARIABLE-ACCESS UUID="cb057b86-5955-5c04-2f77-38266f2dc7af">
-                                            <SHORT-NAME>OUT_VsINP_DHM_FRDoorHandleToEE_sig_VsINP_DHM_FRDoorHandleToEE_sig</SHORT-NAME>
+                                        <VARIABLE-ACCESS UUID="1e5af8c7-8d44-5ba0-44b2-61ad1a6add8b">
+                                            <SHORT-NAME>OUT_VsOUT_DHM_FRDoorHandleToEE_sig_VsOUT_DHM_FRDoorHandleToEE_sig</SHORT-NAME>
                                             <ACCESSED-VARIABLE>
                                                 <AUTOSAR-VARIABLE-IREF>
-                                                    <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/Components/DHM/VsINP_DHM_FRDoorHandleToEE_sig</PORT-PROTOTYPE-REF>
-                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VsINP_DHM_FRDoorHandleToEE_sig/VsINP_DHM_FRDoorHandleToEE_sig</TARGET-DATA-PROTOTYPE-REF>
+                                                    <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/Components/DHM/VsOUT_DHM_FRDoorHandleToEE_sig</PORT-PROTOTYPE-REF>
+                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VsOUT_DHM_FRDoorHandleToEE_sig/VsOUT_DHM_FRDoorHandleToEE_sig</TARGET-DATA-PROTOTYPE-REF>
                                                 </AUTOSAR-VARIABLE-IREF>
                                             </ACCESSED-VARIABLE>
                                         </VARIABLE-ACCESS>
-                                        <VARIABLE-ACCESS UUID="75234cca-34a5-5ee7-eab5-53cccea902b5">
-                                            <SHORT-NAME>OUT_VsINP_DHM_RRDoorHandleToEE_sig_VsINP_DHM_RRDoorHandleToEE_sig</SHORT-NAME>
+                                        <VARIABLE-ACCESS UUID="37a2b8f7-80e3-5976-df29-438a73d197a8">
+                                            <SHORT-NAME>OUT_VsOUT_DHM_RRDoorHandleToEE_sig_VsOUT_DHM_RRDoorHandleToEE_sig</SHORT-NAME>
                                             <ACCESSED-VARIABLE>
                                                 <AUTOSAR-VARIABLE-IREF>
-                                                    <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/Components/DHM/VsINP_DHM_RRDoorHandleToEE_sig</PORT-PROTOTYPE-REF>
-                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VsINP_DHM_RRDoorHandleToEE_sig/VsINP_DHM_RRDoorHandleToEE_sig</TARGET-DATA-PROTOTYPE-REF>
+                                                    <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/Components/DHM/VsOUT_DHM_RRDoorHandleToEE_sig</PORT-PROTOTYPE-REF>
+                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VsOUT_DHM_RRDoorHandleToEE_sig/VsOUT_DHM_RRDoorHandleToEE_sig</TARGET-DATA-PROTOTYPE-REF>
                                                 </AUTOSAR-VARIABLE-IREF>
                                             </ACCESSED-VARIABLE>
                                         </VARIABLE-ACCESS>
-                                        <VARIABLE-ACCESS UUID="25b54c9b-365b-5ab9-3f93-c2230b1a1f1d">
-                                            <SHORT-NAME>OUT_VeINP_DHM_FRDoorHandleLrnSts_sig_VeINP_DHM_FRDoorHandleLrnSts_sig</SHORT-NAME>
+                                        <VARIABLE-ACCESS UUID="247d2827-e53a-5383-a98c-c24d44ce57d3">
+                                            <SHORT-NAME>OUT_VeOUT_DHM_FRDoorHandleLrnSts_sig_VeOUT_DHM_FRDoorHandleLrnSts_sig</SHORT-NAME>
                                             <ACCESSED-VARIABLE>
                                                 <AUTOSAR-VARIABLE-IREF>
-                                                    <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/Components/DHM/VeINP_DHM_FRDoorHandleLrnSts_sig</PORT-PROTOTYPE-REF>
-                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VeINP_DHM_FRDoorHandleLrnSts_sig/VeINP_DHM_FRDoorHandleLrnSts_sig</TARGET-DATA-PROTOTYPE-REF>
+                                                    <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/Components/DHM/VeOUT_DHM_FRDoorHandleLrnSts_sig</PORT-PROTOTYPE-REF>
+                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VeOUT_DHM_FRDoorHandleLrnSts_sig/VeOUT_DHM_FRDoorHandleLrnSts_sig</TARGET-DATA-PROTOTYPE-REF>
                                                 </AUTOSAR-VARIABLE-IREF>
                                             </ACCESSED-VARIABLE>
                                         </VARIABLE-ACCESS>
-                                        <VARIABLE-ACCESS UUID="2276f6ee-a83a-534f-db3e-d1f47ac5adb6">
-                                            <SHORT-NAME>OUT_VeINP_DHM_RRDoorHandleLrnSts_sig_VeINP_DHM_RRDoorHandleLrnSts_sig</SHORT-NAME>
+                                        <VARIABLE-ACCESS UUID="810ccdf8-b3c5-5296-180a-f7ff8f98e68d">
+                                            <SHORT-NAME>OUT_VeOUT_DHM_RRDoorHandleLrnSts_sig_VeOUT_DHM_RRDoorHandleLrnSts_sig</SHORT-NAME>
                                             <ACCESSED-VARIABLE>
                                                 <AUTOSAR-VARIABLE-IREF>
-                                                    <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/Components/DHM/VeINP_DHM_RRDoorHandleLrnSts_sig</PORT-PROTOTYPE-REF>
-                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VeINP_DHM_RRDoorHandleLrnSts_sig/VeINP_DHM_RRDoorHandleLrnSts_sig</TARGET-DATA-PROTOTYPE-REF>
+                                                    <PORT-PROTOTYPE-REF DEST="P-PORT-PROTOTYPE">/Components/DHM/VeOUT_DHM_RRDoorHandleLrnSts_sig</PORT-PROTOTYPE-REF>
+                                                    <TARGET-DATA-PROTOTYPE-REF DEST="VARIABLE-DATA-PROTOTYPE">/Interfaces/VeOUT_DHM_RRDoorHandleLrnSts_sig/VeOUT_DHM_RRDoorHandleLrnSts_sig</TARGET-DATA-PROTOTYPE-REF>
                                                 </AUTOSAR-VARIABLE-IREF>
                                             </ACCESSED-VARIABLE>
                                         </VARIABLE-ACCESS>
-                                        <VARIABLE-ACCESS UUID="b2d623a9-2f22-502c-dde7-391e4617d7a1">
+                                        <VARIABLE-ACCESS UUID="57e59e0f-a15a-5594-962a-1d5d50955f78">
                                             <SHORT-NAME>OUT_VeOUT_DHM_FRDoorHandleLrnStsEE_sig_VeOUT_DHM_FRDoorHandleLrnStsEE_sig</SHORT-NAME>
                                             <ACCESSED-VARIABLE>
                                                 <AUTOSAR-VARIABLE-IREF>
@@ -784,7 +766,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                                 </AUTOSAR-VARIABLE-IREF>
                                             </ACCESSED-VARIABLE>
                                         </VARIABLE-ACCESS>
-                                        <VARIABLE-ACCESS UUID="6a42ac50-c4e1-5606-1ab5-8d7ece75df4a">
+                                        <VARIABLE-ACCESS UUID="92ee28ce-66ed-5546-5a36-fb90a91a0a05">
                                             <SHORT-NAME>OUT_VeOUT_DHM_RRDoorHandleLrnStsEE_sig_VeOUT_DHM_RRDoorHandleLrnStsEE_sig</SHORT-NAME>
                                             <ACCESSED-VARIABLE>
                                                 <AUTOSAR-VARIABLE-IREF>
@@ -809,7 +791,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                 <AR-PACKAGE>
                     <SHORT-NAME>ApplicationDataTypes</SHORT-NAME>
                     <ELEMENTS>
-                        <APPLICATION-ARRAY-DATA-TYPE UUID="da62149d-75d2-458a-a496-ef1b6306dec8">
+                        <APPLICATION-ARRAY-DATA-TYPE UUID="85bc106e-9f3a-438e-81bc-7a4caac1833f">
                             <SHORT-NAME>rt_Array_UInt8_20</SHORT-NAME>
                             <CATEGORY>ARRAY</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -827,7 +809,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                 <MAX-NUMBER-OF-ELEMENTS>20</MAX-NUMBER-OF-ELEMENTS>
                             </ELEMENT>
                         </APPLICATION-ARRAY-DATA-TYPE>
-                        <APPLICATION-PRIMITIVE-DATA-TYPE UUID="dd910cdc-5795-42b0-8a66-cc64e290df4b">
+                        <APPLICATION-PRIMITIVE-DATA-TYPE UUID="7440176b-bb20-4232-a357-f9d14a08323a">
                             <SHORT-NAME>Boolean</SHORT-NAME>
                             <CATEGORY>BOOLEAN</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -839,7 +821,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                 </SW-DATA-DEF-PROPS-VARIANTS>
                             </SW-DATA-DEF-PROPS>
                         </APPLICATION-PRIMITIVE-DATA-TYPE>
-                        <APPLICATION-PRIMITIVE-DATA-TYPE UUID="8b67bd00-9421-4430-a267-f76eb7e6ca13">
+                        <APPLICATION-PRIMITIVE-DATA-TYPE UUID="82a37d09-6b7d-4e70-87e4-b85ff8fde681">
                             <SHORT-NAME>UInt8</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -852,7 +834,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                 </SW-DATA-DEF-PROPS-VARIANTS>
                             </SW-DATA-DEF-PROPS>
                         </APPLICATION-PRIMITIVE-DATA-TYPE>
-                        <APPLICATION-PRIMITIVE-DATA-TYPE UUID="d78a8593-e376-4f28-8b6a-9d270b8717f3">
+                        <APPLICATION-PRIMITIVE-DATA-TYPE UUID="ad535a73-afcb-41c0-bacc-c091a6abf6e7">
                             <SHORT-NAME>SInt8</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -865,7 +847,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                 </SW-DATA-DEF-PROPS-VARIANTS>
                             </SW-DATA-DEF-PROPS>
                         </APPLICATION-PRIMITIVE-DATA-TYPE>
-                        <APPLICATION-PRIMITIVE-DATA-TYPE UUID="16a8076f-4728-4bb6-9bdc-6c5bcb741d21">
+                        <APPLICATION-PRIMITIVE-DATA-TYPE UUID="18fd19e3-0b98-4483-a37c-431f7a4ae7f1">
                             <SHORT-NAME>UInt16</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -878,7 +860,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                 </SW-DATA-DEF-PROPS-VARIANTS>
                             </SW-DATA-DEF-PROPS>
                         </APPLICATION-PRIMITIVE-DATA-TYPE>
-                        <APPLICATION-PRIMITIVE-DATA-TYPE UUID="f69c18bc-735d-4edd-a51d-0064055888ed">
+                        <APPLICATION-PRIMITIVE-DATA-TYPE UUID="4359882c-a5f1-4435-b71f-4753b9c8b3e5">
                             <SHORT-NAME>SInt16</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -891,7 +873,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                 </SW-DATA-DEF-PROPS-VARIANTS>
                             </SW-DATA-DEF-PROPS>
                         </APPLICATION-PRIMITIVE-DATA-TYPE>
-                        <APPLICATION-PRIMITIVE-DATA-TYPE UUID="40baa7ff-c6dc-431c-b3be-92a5e19c9a8f">
+                        <APPLICATION-PRIMITIVE-DATA-TYPE UUID="a5839028-97cc-4fe8-9335-683f97a3ee2b">
                             <SHORT-NAME>UInt32</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -904,7 +886,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                 </SW-DATA-DEF-PROPS-VARIANTS>
                             </SW-DATA-DEF-PROPS>
                         </APPLICATION-PRIMITIVE-DATA-TYPE>
-                        <APPLICATION-PRIMITIVE-DATA-TYPE UUID="5984523a-4e6e-4ccd-bfb2-0512ac9f8641">
+                        <APPLICATION-PRIMITIVE-DATA-TYPE UUID="2aa0727e-b035-489c-b564-2f1affe966d4">
                             <SHORT-NAME>SInt32</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -922,7 +904,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                         <AR-PACKAGE>
                             <SHORT-NAME>DataConstrs</SHORT-NAME>
                             <ELEMENTS>
-                                <DATA-CONSTR UUID="81c72257-a886-46cb-bb44-8d6f3bf51d54">
+                                <DATA-CONSTR UUID="c3d3843c-6ce5-42df-b1f2-2eded1e017f8">
                                     <SHORT-NAME>DC_UInt8</SHORT-NAME>
                                     <DATA-CONSTR-RULES>
                                         <DATA-CONSTR-RULE>
@@ -934,7 +916,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                         </DATA-CONSTR-RULE>
                                     </DATA-CONSTR-RULES>
                                 </DATA-CONSTR>
-                                <DATA-CONSTR UUID="7f371cde-26bf-45c1-8f1d-0ca182b0d2e8">
+                                <DATA-CONSTR UUID="20837a0e-506d-46ab-989f-5c40ce7ab09b">
                                     <SHORT-NAME>DC_SInt8</SHORT-NAME>
                                     <DATA-CONSTR-RULES>
                                         <DATA-CONSTR-RULE>
@@ -946,7 +928,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                         </DATA-CONSTR-RULE>
                                     </DATA-CONSTR-RULES>
                                 </DATA-CONSTR>
-                                <DATA-CONSTR UUID="f41c4e7f-2216-463d-84d6-eb7762bdebd6">
+                                <DATA-CONSTR UUID="aacce997-fe0d-4c35-86b9-9dc6e50f4db4">
                                     <SHORT-NAME>DC_UInt16</SHORT-NAME>
                                     <DATA-CONSTR-RULES>
                                         <DATA-CONSTR-RULE>
@@ -958,7 +940,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                         </DATA-CONSTR-RULE>
                                     </DATA-CONSTR-RULES>
                                 </DATA-CONSTR>
-                                <DATA-CONSTR UUID="46d68eef-3a6d-4045-af18-f465158eb4e3">
+                                <DATA-CONSTR UUID="c9d92755-73ab-47c1-ac9b-f1baef59d75a">
                                     <SHORT-NAME>DC_SInt16</SHORT-NAME>
                                     <DATA-CONSTR-RULES>
                                         <DATA-CONSTR-RULE>
@@ -970,7 +952,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                         </DATA-CONSTR-RULE>
                                     </DATA-CONSTR-RULES>
                                 </DATA-CONSTR>
-                                <DATA-CONSTR UUID="19576291-460f-46c7-af7a-89deb51c2f66">
+                                <DATA-CONSTR UUID="e940ca0c-3606-475b-a6fe-74688a763fcb">
                                     <SHORT-NAME>DC_UInt32</SHORT-NAME>
                                     <DATA-CONSTR-RULES>
                                         <DATA-CONSTR-RULE>
@@ -982,7 +964,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                         </DATA-CONSTR-RULE>
                                     </DATA-CONSTR-RULES>
                                 </DATA-CONSTR>
-                                <DATA-CONSTR UUID="4c23c5f2-5ed3-4ea4-8ead-1c4a61dc38dc">
+                                <DATA-CONSTR UUID="d51f49f3-f08b-4300-b204-11afe2f7f1b5">
                                     <SHORT-NAME>DC_SInt32</SHORT-NAME>
                                     <DATA-CONSTR-RULES>
                                         <DATA-CONSTR-RULE>
@@ -1001,7 +983,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                 <AR-PACKAGE>
                     <SHORT-NAME>CompuMethods</SHORT-NAME>
                     <ELEMENTS>
-                        <COMPU-METHOD UUID="b30aab49-2acf-429e-aa16-481c25625ee0">
+                        <COMPU-METHOD UUID="d50a2e87-9307-4480-a4e5-f2216fa6ec93">
                             <SHORT-NAME>COMPU_Boolean</SHORT-NAME>
                             <CATEGORY>TEXTTABLE</CATEGORY>
                             <UNIT-REF DEST="UNIT">/DataTypes/Units/NoUnit</UNIT-REF>
@@ -1024,7 +1006,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                 </COMPU-SCALES>
                             </COMPU-INTERNAL-TO-PHYS>
                         </COMPU-METHOD>
-                        <COMPU-METHOD UUID="7735861f-c372-4db8-9470-71ce9d704710">
+                        <COMPU-METHOD UUID="bb1a63ec-a4b5-4d6c-bf03-49b2af09cc54">
                             <SHORT-NAME>Identcl</SHORT-NAME>
                             <CATEGORY>IDENTICAL</CATEGORY>
                             <UNIT-REF DEST="UNIT">/DataTypes/Units/NoUnit</UNIT-REF>
@@ -1034,7 +1016,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                 <AR-PACKAGE>
                     <SHORT-NAME>DataTypeMappings</SHORT-NAME>
                     <ELEMENTS>
-                        <DATA-TYPE-MAPPING-SET UUID="5368c4d8-5a3b-49a9-84ae-768d1fa63d7b">
+                        <DATA-TYPE-MAPPING-SET UUID="4a245922-1351-4209-8096-443d9efa1839">
                             <SHORT-NAME>DataTypeMappingsSet</SHORT-NAME>
                             <DATA-TYPE-MAPS>
                                 <DATA-TYPE-MAP>
@@ -1076,11 +1058,11 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                 <AR-PACKAGE>
                     <SHORT-NAME>ImplementationDataTypes</SHORT-NAME>
                     <ELEMENTS>
-                        <IMPLEMENTATION-DATA-TYPE UUID="bf6e7f8b-53cd-413c-beb5-92f359071c30">
+                        <IMPLEMENTATION-DATA-TYPE UUID="8a91fd13-447f-4e35-950c-e417f1328faf">
                             <SHORT-NAME>rt_Array_UInt8_20</SHORT-NAME>
                             <CATEGORY>ARRAY</CATEGORY>
                             <SUB-ELEMENTS>
-                                <IMPLEMENTATION-DATA-TYPE-ELEMENT UUID="a4614a33-6a96-5f49-1548-d8a44b1b9b45">
+                                <IMPLEMENTATION-DATA-TYPE-ELEMENT UUID="a6fd3a3c-44d3-5109-8a89-23a9d69d3fa6">
                                     <SHORT-NAME>rt_Array_UInt8_20</SHORT-NAME>
                                     <CATEGORY>TYPE_REFERENCE</CATEGORY>
                                     <ARRAY-SIZE>20</ARRAY-SIZE>
@@ -1095,7 +1077,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                 </IMPLEMENTATION-DATA-TYPE-ELEMENT>
                             </SUB-ELEMENTS>
                         </IMPLEMENTATION-DATA-TYPE>
-                        <IMPLEMENTATION-DATA-TYPE UUID="be05bac7-2873-48fe-93e4-85311097ecf2">
+                        <IMPLEMENTATION-DATA-TYPE UUID="968e0061-89af-46bb-adae-c9d0ac8b1eff">
                             <SHORT-NAME>Boolean</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -1107,7 +1089,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                 </SW-DATA-DEF-PROPS-VARIANTS>
                             </SW-DATA-DEF-PROPS>
                         </IMPLEMENTATION-DATA-TYPE>
-                        <IMPLEMENTATION-DATA-TYPE UUID="9e961e71-f98b-476a-9113-3d2fc39c87d4">
+                        <IMPLEMENTATION-DATA-TYPE UUID="546c9d28-6d3b-4eb2-b9b6-756d406ea247">
                             <SHORT-NAME>UInt8</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -1118,7 +1100,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                 </SW-DATA-DEF-PROPS-VARIANTS>
                             </SW-DATA-DEF-PROPS>
                         </IMPLEMENTATION-DATA-TYPE>
-                        <IMPLEMENTATION-DATA-TYPE UUID="24cbd81b-9d8d-4763-9c41-7e8e143b502f">
+                        <IMPLEMENTATION-DATA-TYPE UUID="97a2200b-d7c5-49cb-aa3a-be57f9cfb844">
                             <SHORT-NAME>SInt8</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -1129,7 +1111,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                 </SW-DATA-DEF-PROPS-VARIANTS>
                             </SW-DATA-DEF-PROPS>
                         </IMPLEMENTATION-DATA-TYPE>
-                        <IMPLEMENTATION-DATA-TYPE UUID="a2f49e5b-94cb-4879-ab3a-452202de3c58">
+                        <IMPLEMENTATION-DATA-TYPE UUID="6b73fdab-f8a7-4db1-ae71-921d8b1154c6">
                             <SHORT-NAME>UInt16</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -1140,7 +1122,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                 </SW-DATA-DEF-PROPS-VARIANTS>
                             </SW-DATA-DEF-PROPS>
                         </IMPLEMENTATION-DATA-TYPE>
-                        <IMPLEMENTATION-DATA-TYPE UUID="fb6ddfdf-d5dd-4154-879b-5c3988d1e1e8">
+                        <IMPLEMENTATION-DATA-TYPE UUID="3db15461-71f6-4c96-85b2-7e42b8c1faa3">
                             <SHORT-NAME>SInt16</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -1151,7 +1133,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                 </SW-DATA-DEF-PROPS-VARIANTS>
                             </SW-DATA-DEF-PROPS>
                         </IMPLEMENTATION-DATA-TYPE>
-                        <IMPLEMENTATION-DATA-TYPE UUID="ee6ffe7f-6b2a-4a51-b289-a6abcb47163a">
+                        <IMPLEMENTATION-DATA-TYPE UUID="b7201985-bc12-471c-a5f1-b8af24bfdf8d">
                             <SHORT-NAME>UInt32</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -1162,7 +1144,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                                 </SW-DATA-DEF-PROPS-VARIANTS>
                             </SW-DATA-DEF-PROPS>
                         </IMPLEMENTATION-DATA-TYPE>
-                        <IMPLEMENTATION-DATA-TYPE UUID="0b9c2330-2e2c-4bf1-a673-013f4166f440">
+                        <IMPLEMENTATION-DATA-TYPE UUID="66ed92a0-62aa-43ca-b786-0ae5c88aace4">
                             <SHORT-NAME>SInt32</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -1178,15 +1160,15 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                 <AR-PACKAGE>
                     <SHORT-NAME>SwAddrMethods</SHORT-NAME>
                     <ELEMENTS>
-                        <SW-ADDR-METHOD UUID="eb88de39-f38c-462d-aae3-fbdfaa5884f9">
+                        <SW-ADDR-METHOD UUID="ec278b05-59ae-4a5f-add2-3bd01c9c6c90">
                             <SHORT-NAME>CODE</SHORT-NAME>
                             <SECTION-TYPE>CODE</SECTION-TYPE>
                         </SW-ADDR-METHOD>
-                        <SW-ADDR-METHOD UUID="72e2eff7-1d26-4bed-a928-d22d4a4102e3">
+                        <SW-ADDR-METHOD UUID="a0606032-432e-46dd-bf0b-71954b45437b">
                             <SHORT-NAME>CONST</SHORT-NAME>
                             <SECTION-TYPE>CONST</SECTION-TYPE>
                         </SW-ADDR-METHOD>
-                        <SW-ADDR-METHOD UUID="e309a999-7bbe-4ee8-b2a2-0117d6f26b29">
+                        <SW-ADDR-METHOD UUID="ddc5acae-a762-4860-9142-56d4817d1ef5">
                             <SHORT-NAME>VAR</SHORT-NAME>
                             <SECTION-TYPE>VAR</SECTION-TYPE>
                         </SW-ADDR-METHOD>
@@ -1195,49 +1177,49 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                 <AR-PACKAGE>
                     <SHORT-NAME>SwBaseTypes</SHORT-NAME>
                     <ELEMENTS>
-                        <SW-BASE-TYPE UUID="d26e464a-82f8-4d70-9a25-50c599574283">
+                        <SW-BASE-TYPE UUID="9e6280bd-d847-4304-8a1a-c902e7086cae">
                             <SHORT-NAME>boolean</SHORT-NAME>
                             <CATEGORY>FIXED_LENGTH</CATEGORY>
                             <BASE-TYPE-SIZE>8</BASE-TYPE-SIZE>
                             <BASE-TYPE-ENCODING>BOOLEAN</BASE-TYPE-ENCODING>
                             <NATIVE-DECLARATION>boolean</NATIVE-DECLARATION>
                         </SW-BASE-TYPE>
-                        <SW-BASE-TYPE UUID="d27684e7-8f49-4222-b5a7-f14d677b20f9">
+                        <SW-BASE-TYPE UUID="1a7110c2-e516-40e5-a04f-b2f6b2d182f6">
                             <SHORT-NAME>uint8</SHORT-NAME>
                             <CATEGORY>FIXED_LENGTH</CATEGORY>
                             <BASE-TYPE-SIZE>8</BASE-TYPE-SIZE>
                             <BASE-TYPE-ENCODING>NONE</BASE-TYPE-ENCODING>
                             <NATIVE-DECLARATION>uint8</NATIVE-DECLARATION>
                         </SW-BASE-TYPE>
-                        <SW-BASE-TYPE UUID="3b864e24-6d38-4c38-9e76-f587051fb773">
+                        <SW-BASE-TYPE UUID="9e467c80-dc6a-4ead-a216-2e62b046c533">
                             <SHORT-NAME>sint8</SHORT-NAME>
                             <CATEGORY>FIXED_LENGTH</CATEGORY>
                             <BASE-TYPE-SIZE>8</BASE-TYPE-SIZE>
                             <BASE-TYPE-ENCODING>2C</BASE-TYPE-ENCODING>
                             <NATIVE-DECLARATION>sint8</NATIVE-DECLARATION>
                         </SW-BASE-TYPE>
-                        <SW-BASE-TYPE UUID="71a0ad6c-4915-45e0-b13c-9b848cfb6a78">
+                        <SW-BASE-TYPE UUID="de344a70-22b8-4454-84e9-5c30e47a4e66">
                             <SHORT-NAME>uint16</SHORT-NAME>
                             <CATEGORY>FIXED_LENGTH</CATEGORY>
                             <BASE-TYPE-SIZE>16</BASE-TYPE-SIZE>
                             <BASE-TYPE-ENCODING>NONE</BASE-TYPE-ENCODING>
                             <NATIVE-DECLARATION>uint16</NATIVE-DECLARATION>
                         </SW-BASE-TYPE>
-                        <SW-BASE-TYPE UUID="40ce8aac-5f22-475b-aab1-9ab97572f6a3">
+                        <SW-BASE-TYPE UUID="741dc85d-65c0-4471-9ba9-8bc6842a3ff7">
                             <SHORT-NAME>sint16</SHORT-NAME>
                             <CATEGORY>FIXED_LENGTH</CATEGORY>
                             <BASE-TYPE-SIZE>16</BASE-TYPE-SIZE>
                             <BASE-TYPE-ENCODING>2C</BASE-TYPE-ENCODING>
                             <NATIVE-DECLARATION>sint16</NATIVE-DECLARATION>
                         </SW-BASE-TYPE>
-                        <SW-BASE-TYPE UUID="a0ead5b3-3be9-4b05-9c0a-b237855ec6b4">
+                        <SW-BASE-TYPE UUID="f0780bc0-5541-4371-b89b-70ff16c563ac">
                             <SHORT-NAME>uint32</SHORT-NAME>
                             <CATEGORY>FIXED_LENGTH</CATEGORY>
                             <BASE-TYPE-SIZE>32</BASE-TYPE-SIZE>
                             <BASE-TYPE-ENCODING>NONE</BASE-TYPE-ENCODING>
                             <NATIVE-DECLARATION>uint32</NATIVE-DECLARATION>
                         </SW-BASE-TYPE>
-                        <SW-BASE-TYPE UUID="e9fcf470-2c17-4642-a62a-e03bc3a83925">
+                        <SW-BASE-TYPE UUID="feff7c59-c786-4318-bc8e-20f9aff4aaf4">
                             <SHORT-NAME>sint32</SHORT-NAME>
                             <CATEGORY>FIXED_LENGTH</CATEGORY>
                             <BASE-TYPE-SIZE>32</BASE-TYPE-SIZE>
@@ -1249,7 +1231,7 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                 <AR-PACKAGE>
                     <SHORT-NAME>Units</SHORT-NAME>
                     <ELEMENTS>
-                        <UNIT UUID="c3d79391-ef13-4bd9-bfb6-ccc2bbf7da72">
+                        <UNIT UUID="01a8e73f-30c4-4722-bbde-ebacf785ef77">
                             <SHORT-NAME>NoUnit</SHORT-NAME>
                             <FACTOR-SI-TO-UNIT>1</FACTOR-SI-TO-UNIT>
                             <OFFSET-SI-TO-UNIT>0</OFFSET-SI-TO-UNIT>
@@ -1261,11 +1243,11 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
         <AR-PACKAGE>
             <SHORT-NAME>Interfaces</SHORT-NAME>
             <ELEMENTS>
-                <SENDER-RECEIVER-INTERFACE UUID="216521c4-052e-4e5f-a11d-c40e311d3156">
+                <SENDER-RECEIVER-INTERFACE UUID="0483d4d2-f842-44ab-9934-4a21aa832300">
                     <SHORT-NAME>VsINP_HWA_PassHandleHall_sig</SHORT-NAME>
                     <IS-SERVICE>false</IS-SERVICE>
                     <DATA-ELEMENTS>
-                        <VARIABLE-DATA-PROTOTYPE UUID="b45ea8ec-0f6c-4c46-94de-791966da0ac8">
+                        <VARIABLE-DATA-PROTOTYPE UUID="ed8f4950-1e90-4f8c-8b49-fbaf9596908e">
                             <SHORT-NAME>VsINP_HWA_PassHandleHall_sig</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -1280,11 +1262,11 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                         </VARIABLE-DATA-PROTOTYPE>
                     </DATA-ELEMENTS>
                 </SENDER-RECEIVER-INTERFACE>
-                <SENDER-RECEIVER-INTERFACE UUID="a561bd8e-f2ca-4ef2-87ca-25a66ffeb2a7">
+                <SENDER-RECEIVER-INTERFACE UUID="602d139f-b926-45f7-9f14-05e55fca002c">
                     <SHORT-NAME>VsINP_HWA_RRHandleHall_sig</SHORT-NAME>
                     <IS-SERVICE>false</IS-SERVICE>
                     <DATA-ELEMENTS>
-                        <VARIABLE-DATA-PROTOTYPE UUID="4b38dd33-9bfe-4ead-a17e-7f0698fc893d">
+                        <VARIABLE-DATA-PROTOTYPE UUID="c448d195-543f-4167-8336-4b3e8d143cba">
                             <SHORT-NAME>VsINP_HWA_RRHandleHall_sig</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -1299,11 +1281,11 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                         </VARIABLE-DATA-PROTOTYPE>
                     </DATA-ELEMENTS>
                 </SENDER-RECEIVER-INTERFACE>
-                <SENDER-RECEIVER-INTERFACE UUID="77c20024-f0dd-4356-998c-ceef3300f4df">
+                <SENDER-RECEIVER-INTERFACE UUID="776b3fd5-5fe8-4608-8d67-3fea11753e32">
                     <SHORT-NAME>VeINP_CAN_RDoorHandleReq_sig</SHORT-NAME>
                     <IS-SERVICE>false</IS-SERVICE>
                     <DATA-ELEMENTS>
-                        <VARIABLE-DATA-PROTOTYPE UUID="a992dfd8-ff9a-40b4-b6f1-1f6589791ff3">
+                        <VARIABLE-DATA-PROTOTYPE UUID="46d8769a-ed34-4048-b955-25d1907c4631">
                             <SHORT-NAME>VeINP_CAN_RDoorHandleReq_sig</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -1318,11 +1300,11 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                         </VARIABLE-DATA-PROTOTYPE>
                     </DATA-ELEMENTS>
                 </SENDER-RECEIVER-INTERFACE>
-                <SENDER-RECEIVER-INTERFACE UUID="92029967-6204-4824-99d5-b28548fdd446">
+                <SENDER-RECEIVER-INTERFACE UUID="1456e6a4-fd16-4cf8-beb6-ef2bc1625e54">
                     <SHORT-NAME>VeINP_CAN_RRDoorHandleReq_sig</SHORT-NAME>
                     <IS-SERVICE>false</IS-SERVICE>
                     <DATA-ELEMENTS>
-                        <VARIABLE-DATA-PROTOTYPE UUID="de5445f1-6329-45c5-9bcd-18409cc30692">
+                        <VARIABLE-DATA-PROTOTYPE UUID="d1eed571-9ab8-4ee4-b151-8d1ededd64ed">
                             <SHORT-NAME>VeINP_CAN_RRDoorHandleReq_sig</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -1337,11 +1319,11 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                         </VARIABLE-DATA-PROTOTYPE>
                     </DATA-ELEMENTS>
                 </SENDER-RECEIVER-INTERFACE>
-                <SENDER-RECEIVER-INTERFACE UUID="ddd19cf6-86f7-49a9-aabc-31bc28e5171e">
+                <SENDER-RECEIVER-INTERFACE UUID="5e967e22-64ab-4e20-a027-7671eaaacd9f">
                     <SHORT-NAME>VsINP_EPRM_FRDoorHandleFromEE_sig</SHORT-NAME>
                     <IS-SERVICE>false</IS-SERVICE>
                     <DATA-ELEMENTS>
-                        <VARIABLE-DATA-PROTOTYPE UUID="c84e1ecc-1559-4e9d-b39e-6d7c0cc117a6">
+                        <VARIABLE-DATA-PROTOTYPE UUID="29a60941-d3c1-4ab1-8cd0-a3e2d2a93401">
                             <SHORT-NAME>VsINP_EPRM_FRDoorHandleFromEE_sig</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -1356,11 +1338,11 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                         </VARIABLE-DATA-PROTOTYPE>
                     </DATA-ELEMENTS>
                 </SENDER-RECEIVER-INTERFACE>
-                <SENDER-RECEIVER-INTERFACE UUID="6a8b6f37-980c-412c-a6bb-1c77c1a427fc">
+                <SENDER-RECEIVER-INTERFACE UUID="9aa1c751-f19c-49ca-8757-0cd07cf36ddc">
                     <SHORT-NAME>VsINP_EPRM_RRDoorHandleFromEE_sig</SHORT-NAME>
                     <IS-SERVICE>false</IS-SERVICE>
                     <DATA-ELEMENTS>
-                        <VARIABLE-DATA-PROTOTYPE UUID="3655ecec-da29-4529-adfd-c6463ccf0cfa">
+                        <VARIABLE-DATA-PROTOTYPE UUID="ceb58335-6e1d-49a3-9cfc-71fd5d0bdb60">
                             <SHORT-NAME>VsINP_EPRM_RRDoorHandleFromEE_sig</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -1375,11 +1357,11 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                         </VARIABLE-DATA-PROTOTYPE>
                     </DATA-ELEMENTS>
                 </SENDER-RECEIVER-INTERFACE>
-                <SENDER-RECEIVER-INTERFACE UUID="f99b8887-d131-492c-893e-d33cd7069d5d">
+                <SENDER-RECEIVER-INTERFACE UUID="209e3de4-f62a-4279-bf28-9ed36a17993f">
                     <SHORT-NAME>VbINP_CAN_DoorHandleLrnReq_flg</SHORT-NAME>
                     <IS-SERVICE>false</IS-SERVICE>
                     <DATA-ELEMENTS>
-                        <VARIABLE-DATA-PROTOTYPE UUID="81231d7d-46e0-43ee-966f-8d5eaa045fbc">
+                        <VARIABLE-DATA-PROTOTYPE UUID="567d659f-6e12-4aca-b2e7-8eb09bfa438d">
                             <SHORT-NAME>VbINP_CAN_DoorHandleLrnReq_flg</SHORT-NAME>
                             <CATEGORY>BOOLEAN</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -1394,11 +1376,11 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                         </VARIABLE-DATA-PROTOTYPE>
                     </DATA-ELEMENTS>
                 </SENDER-RECEIVER-INTERFACE>
-                <SENDER-RECEIVER-INTERFACE UUID="5e1e24e7-8ae3-4c24-8f2d-8b9772caf578">
+                <SENDER-RECEIVER-INTERFACE UUID="3ec43a1e-7b3c-4714-8038-13d9110f3186">
                     <SHORT-NAME>VeINP_EPRM_FRDoorHandleLrnStsFromEE_sig</SHORT-NAME>
                     <IS-SERVICE>false</IS-SERVICE>
                     <DATA-ELEMENTS>
-                        <VARIABLE-DATA-PROTOTYPE UUID="4cfff63c-a71c-4de9-b424-b4c187e53edf">
+                        <VARIABLE-DATA-PROTOTYPE UUID="e94dcc37-470c-48b5-8ddf-b02402bffc6b">
                             <SHORT-NAME>VeINP_EPRM_FRDoorHandleLrnStsFromEE_sig</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -1413,11 +1395,11 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                         </VARIABLE-DATA-PROTOTYPE>
                     </DATA-ELEMENTS>
                 </SENDER-RECEIVER-INTERFACE>
-                <SENDER-RECEIVER-INTERFACE UUID="dd4fd0c9-fd16-42b7-8f48-82374cd25fc9">
+                <SENDER-RECEIVER-INTERFACE UUID="340156ca-9571-4811-8068-dcfc88aac22b">
                     <SHORT-NAME>VeINP_EPRM_RRDoorHandleLrnStsFromEE_sig</SHORT-NAME>
                     <IS-SERVICE>false</IS-SERVICE>
                     <DATA-ELEMENTS>
-                        <VARIABLE-DATA-PROTOTYPE UUID="347a8079-feb9-46ca-b518-5d7cc94a3d11">
+                        <VARIABLE-DATA-PROTOTYPE UUID="5c0dae64-23e0-40b0-a6b3-d435a84ddf28">
                             <SHORT-NAME>VeINP_EPRM_RRDoorHandleLrnStsFromEE_sig</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -1432,11 +1414,11 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                         </VARIABLE-DATA-PROTOTYPE>
                     </DATA-ELEMENTS>
                 </SENDER-RECEIVER-INTERFACE>
-                <SENDER-RECEIVER-INTERFACE UUID="1ae29e4a-2bdc-410c-a48f-7b594650a739">
+                <SENDER-RECEIVER-INTERFACE UUID="b7162692-9d7c-4072-af77-21f9a967920a">
                     <SHORT-NAME>VeOUT_DHM_FRDoorHandleSts_sig</SHORT-NAME>
                     <IS-SERVICE>false</IS-SERVICE>
                     <DATA-ELEMENTS>
-                        <VARIABLE-DATA-PROTOTYPE UUID="51007252-a44d-4d90-bae2-14dbd414550e">
+                        <VARIABLE-DATA-PROTOTYPE UUID="20749ac0-5b7c-4745-b98c-c6fb4ffc5950">
                             <SHORT-NAME>VeOUT_DHM_FRDoorHandleSts_sig</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -1451,11 +1433,11 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                         </VARIABLE-DATA-PROTOTYPE>
                     </DATA-ELEMENTS>
                 </SENDER-RECEIVER-INTERFACE>
-                <SENDER-RECEIVER-INTERFACE UUID="0bf80753-acf4-4f8d-b764-e3e0a9685b7d">
+                <SENDER-RECEIVER-INTERFACE UUID="fe3efc69-8998-47ed-b779-371a14a1dab0">
                     <SHORT-NAME>VeOUT_DHM_RRDoorHandleSts_sig</SHORT-NAME>
                     <IS-SERVICE>false</IS-SERVICE>
                     <DATA-ELEMENTS>
-                        <VARIABLE-DATA-PROTOTYPE UUID="7a491ebb-8feb-4037-a009-4c90d8943f6a">
+                        <VARIABLE-DATA-PROTOTYPE UUID="765b8cb5-93d6-4135-8141-a3989f8665d1">
                             <SHORT-NAME>VeOUT_DHM_RRDoorHandleSts_sig</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -1470,11 +1452,11 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                         </VARIABLE-DATA-PROTOTYPE>
                     </DATA-ELEMENTS>
                 </SENDER-RECEIVER-INTERFACE>
-                <SENDER-RECEIVER-INTERFACE UUID="3f27e887-174b-4c54-8d66-63666df46e31">
+                <SENDER-RECEIVER-INTERFACE UUID="eab440b5-13d6-4925-9791-6f84441d89f1">
                     <SHORT-NAME>VbOUT_DHM_FRHadUnfold_flg</SHORT-NAME>
                     <IS-SERVICE>false</IS-SERVICE>
                     <DATA-ELEMENTS>
-                        <VARIABLE-DATA-PROTOTYPE UUID="06a11630-22a2-4b1d-ba73-ab4fdc7a684e">
+                        <VARIABLE-DATA-PROTOTYPE UUID="8aa65081-21c6-44af-864a-95960dcf4f48">
                             <SHORT-NAME>VbOUT_DHM_FRHadUnfold_flg</SHORT-NAME>
                             <CATEGORY>BOOLEAN</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -1489,11 +1471,11 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                         </VARIABLE-DATA-PROTOTYPE>
                     </DATA-ELEMENTS>
                 </SENDER-RECEIVER-INTERFACE>
-                <SENDER-RECEIVER-INTERFACE UUID="1267ad63-d52b-440d-995e-29d8aa20bb67">
+                <SENDER-RECEIVER-INTERFACE UUID="a1f2c113-23c3-4239-a14c-645c2fb70652">
                     <SHORT-NAME>VbOUT_DHM_FRHadFold_flg</SHORT-NAME>
                     <IS-SERVICE>false</IS-SERVICE>
                     <DATA-ELEMENTS>
-                        <VARIABLE-DATA-PROTOTYPE UUID="70af27b0-8f52-46c5-a8e1-0bdbb7d3b811">
+                        <VARIABLE-DATA-PROTOTYPE UUID="3261c5fa-a589-4b73-b741-68f9f9ead754">
                             <SHORT-NAME>VbOUT_DHM_FRHadFold_flg</SHORT-NAME>
                             <CATEGORY>BOOLEAN</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -1508,11 +1490,11 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                         </VARIABLE-DATA-PROTOTYPE>
                     </DATA-ELEMENTS>
                 </SENDER-RECEIVER-INTERFACE>
-                <SENDER-RECEIVER-INTERFACE UUID="fe9c9df0-8ba7-4d28-8521-37f47e9f3113">
+                <SENDER-RECEIVER-INTERFACE UUID="f89ad326-4d6a-4347-9099-1bf8dfa9f610">
                     <SHORT-NAME>VbOUT_DHM_RRHandleUnfold_flg</SHORT-NAME>
                     <IS-SERVICE>false</IS-SERVICE>
                     <DATA-ELEMENTS>
-                        <VARIABLE-DATA-PROTOTYPE UUID="55718255-edc2-41d1-8ae6-8decbf43235c">
+                        <VARIABLE-DATA-PROTOTYPE UUID="a1c3707c-c931-4004-a8fb-8f77e3ce4f1a">
                             <SHORT-NAME>VbOUT_DHM_RRHandleUnfold_flg</SHORT-NAME>
                             <CATEGORY>BOOLEAN</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -1527,11 +1509,11 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                         </VARIABLE-DATA-PROTOTYPE>
                     </DATA-ELEMENTS>
                 </SENDER-RECEIVER-INTERFACE>
-                <SENDER-RECEIVER-INTERFACE UUID="6054c094-c783-4cbb-85a4-024cebfb5b45">
+                <SENDER-RECEIVER-INTERFACE UUID="5d3e484f-3ca7-4637-be6d-5244bade9018">
                     <SHORT-NAME>VbOUT_DHM_RRHandleFold_flg</SHORT-NAME>
                     <IS-SERVICE>false</IS-SERVICE>
                     <DATA-ELEMENTS>
-                        <VARIABLE-DATA-PROTOTYPE UUID="e6043162-4efa-4e3c-97dc-f81a8501eb0f">
+                        <VARIABLE-DATA-PROTOTYPE UUID="28283c8f-c953-4907-85c5-3050857d7cea">
                             <SHORT-NAME>VbOUT_DHM_RRHandleFold_flg</SHORT-NAME>
                             <CATEGORY>BOOLEAN</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -1546,12 +1528,12 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                         </VARIABLE-DATA-PROTOTYPE>
                     </DATA-ELEMENTS>
                 </SENDER-RECEIVER-INTERFACE>
-                <SENDER-RECEIVER-INTERFACE UUID="dde2a950-63dd-4f77-aed4-8981ee82bed4">
-                    <SHORT-NAME>VsINP_DHM_FRDoorHandleToEE_sig</SHORT-NAME>
+                <SENDER-RECEIVER-INTERFACE UUID="d2a832b5-778e-4ed9-90c5-2f71e4e1e7cd">
+                    <SHORT-NAME>VsOUT_DHM_FRDoorHandleToEE_sig</SHORT-NAME>
                     <IS-SERVICE>false</IS-SERVICE>
                     <DATA-ELEMENTS>
-                        <VARIABLE-DATA-PROTOTYPE UUID="25701c7e-8a44-4b87-be98-184a16ad0b4a">
-                            <SHORT-NAME>VsINP_DHM_FRDoorHandleToEE_sig</SHORT-NAME>
+                        <VARIABLE-DATA-PROTOTYPE UUID="4df7484e-dc72-4514-b881-d512e84f4070">
+                            <SHORT-NAME>VsOUT_DHM_FRDoorHandleToEE_sig</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
                                 <SW-DATA-DEF-PROPS-VARIANTS>
@@ -1565,12 +1547,12 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                         </VARIABLE-DATA-PROTOTYPE>
                     </DATA-ELEMENTS>
                 </SENDER-RECEIVER-INTERFACE>
-                <SENDER-RECEIVER-INTERFACE UUID="42a43965-fd01-4c8a-ab31-dc2f0a33ffc7">
-                    <SHORT-NAME>VsINP_DHM_RRDoorHandleToEE_sig</SHORT-NAME>
+                <SENDER-RECEIVER-INTERFACE UUID="3f8286fc-6afc-4d94-8d82-09dcea58674c">
+                    <SHORT-NAME>VsOUT_DHM_RRDoorHandleToEE_sig</SHORT-NAME>
                     <IS-SERVICE>false</IS-SERVICE>
                     <DATA-ELEMENTS>
-                        <VARIABLE-DATA-PROTOTYPE UUID="0e598cd6-a921-412f-9d19-adb7152e4a27">
-                            <SHORT-NAME>VsINP_DHM_RRDoorHandleToEE_sig</SHORT-NAME>
+                        <VARIABLE-DATA-PROTOTYPE UUID="ce3928dc-8191-46de-8dbc-6cf42c9d9eb4">
+                            <SHORT-NAME>VsOUT_DHM_RRDoorHandleToEE_sig</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
                                 <SW-DATA-DEF-PROPS-VARIANTS>
@@ -1584,12 +1566,12 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                         </VARIABLE-DATA-PROTOTYPE>
                     </DATA-ELEMENTS>
                 </SENDER-RECEIVER-INTERFACE>
-                <SENDER-RECEIVER-INTERFACE UUID="16c008fb-768d-47d1-a60f-014f68b4f2b8">
-                    <SHORT-NAME>VeINP_DHM_FRDoorHandleLrnSts_sig</SHORT-NAME>
+                <SENDER-RECEIVER-INTERFACE UUID="c217cfca-4d29-44e6-adb2-b1c4c01723d3">
+                    <SHORT-NAME>VeOUT_DHM_FRDoorHandleLrnSts_sig</SHORT-NAME>
                     <IS-SERVICE>false</IS-SERVICE>
                     <DATA-ELEMENTS>
-                        <VARIABLE-DATA-PROTOTYPE UUID="842ef759-6889-4afb-8aee-55f1f37af0b4">
-                            <SHORT-NAME>VeINP_DHM_FRDoorHandleLrnSts_sig</SHORT-NAME>
+                        <VARIABLE-DATA-PROTOTYPE UUID="49bc26b4-22a1-4eb3-95ec-a4d48bf078f2">
+                            <SHORT-NAME>VeOUT_DHM_FRDoorHandleLrnSts_sig</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
                                 <SW-DATA-DEF-PROPS-VARIANTS>
@@ -1603,12 +1585,12 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                         </VARIABLE-DATA-PROTOTYPE>
                     </DATA-ELEMENTS>
                 </SENDER-RECEIVER-INTERFACE>
-                <SENDER-RECEIVER-INTERFACE UUID="d4fc4184-1ab4-4405-9a74-4bd157dd3f1a">
-                    <SHORT-NAME>VeINP_DHM_RRDoorHandleLrnSts_sig</SHORT-NAME>
+                <SENDER-RECEIVER-INTERFACE UUID="cf1d07da-5518-40c4-973e-fb09d03984a6">
+                    <SHORT-NAME>VeOUT_DHM_RRDoorHandleLrnSts_sig</SHORT-NAME>
                     <IS-SERVICE>false</IS-SERVICE>
                     <DATA-ELEMENTS>
-                        <VARIABLE-DATA-PROTOTYPE UUID="f583ad13-b0b4-47e5-a955-18471f6be2a4">
-                            <SHORT-NAME>VeINP_DHM_RRDoorHandleLrnSts_sig</SHORT-NAME>
+                        <VARIABLE-DATA-PROTOTYPE UUID="92dae099-70db-49f1-a2fe-b492d5819f19">
+                            <SHORT-NAME>VeOUT_DHM_RRDoorHandleLrnSts_sig</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
                                 <SW-DATA-DEF-PROPS-VARIANTS>
@@ -1622,11 +1604,11 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                         </VARIABLE-DATA-PROTOTYPE>
                     </DATA-ELEMENTS>
                 </SENDER-RECEIVER-INTERFACE>
-                <SENDER-RECEIVER-INTERFACE UUID="ae7dd864-7660-4dd3-a973-5488caea2890">
+                <SENDER-RECEIVER-INTERFACE UUID="eec7746d-ead8-4bff-b566-26567c018e70">
                     <SHORT-NAME>VeOUT_DHM_FRDoorHandleLrnStsEE_sig</SHORT-NAME>
                     <IS-SERVICE>false</IS-SERVICE>
                     <DATA-ELEMENTS>
-                        <VARIABLE-DATA-PROTOTYPE UUID="80bee878-e638-4f42-849c-8f97aa974057">
+                        <VARIABLE-DATA-PROTOTYPE UUID="05c3d79b-d6e0-4771-a4e3-b6569f25156c">
                             <SHORT-NAME>VeOUT_DHM_FRDoorHandleLrnStsEE_sig</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
@@ -1641,11 +1623,11 @@ Model Checksum               : 2472397578 2837093858 2154433520 2182021032
                         </VARIABLE-DATA-PROTOTYPE>
                     </DATA-ELEMENTS>
                 </SENDER-RECEIVER-INTERFACE>
-                <SENDER-RECEIVER-INTERFACE UUID="132ff2a9-a62e-4f96-a554-41916efd3c85">
+                <SENDER-RECEIVER-INTERFACE UUID="bf46bbd8-1020-4d6f-aab3-3a1ad18f779c">
                     <SHORT-NAME>VeOUT_DHM_RRDoorHandleLrnStsEE_sig</SHORT-NAME>
                     <IS-SERVICE>false</IS-SERVICE>
                     <DATA-ELEMENTS>
-                        <VARIABLE-DATA-PROTOTYPE UUID="7386e47c-4d0b-4245-b937-8a1cc2fd5652">
+                        <VARIABLE-DATA-PROTOTYPE UUID="9e5f8532-4b99-497b-82ca-177d1e52062f">
                             <SHORT-NAME>VeOUT_DHM_RRDoorHandleLrnStsEE_sig</SHORT-NAME>
                             <CATEGORY>VALUE</CATEGORY>
                             <SW-DATA-DEF-PROPS>
