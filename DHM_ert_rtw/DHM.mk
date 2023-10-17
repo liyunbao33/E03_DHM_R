@@ -2,7 +2,7 @@
 ## Makefile generated for component 'DHM'. 
 ## 
 ## Makefile     : DHM.mk
-## Generated on : Sun Oct 15 23:31:54 2023
+## Generated on : Tue Oct 17 22:10:17 2023
 ## Final product: $(RELATIVE_PATH_TO_ANCHOR)/DHM.exe
 ## Product type : executable
 ## 
@@ -19,10 +19,10 @@
 
 PRODUCT_NAME              = DHM
 MAKEFILE                  = DHM.mk
-MATLAB_ROOT               = D:/APP/MATLAB~1
-MATLAB_BIN                = D:/APP/MATLAB~1/bin
+MATLAB_ROOT               = D:/APP/matlab
+MATLAB_BIN                = D:/APP/matlab/bin
 MATLAB_ARCH_BIN           = $(MATLAB_BIN)/win64
-START_DIR                 = D:/temp/E03_DHM_R
+START_DIR                 = C:/Users/DELL/Desktop/E03_DHM_R
 SOLVER                    = 
 SOLVER_OBJ                = 
 CLASSIC_INTERFACE         = 0
