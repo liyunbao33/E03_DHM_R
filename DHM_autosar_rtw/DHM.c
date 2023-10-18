@@ -3,9 +3,9 @@
  *
  * Code generated for Simulink model 'DHM'.
  *
- * Model version                  : 1.7
+ * Model version                  : 1.10
  * Simulink Coder version         : 9.7 (R2022a) 13-Nov-2021
- * C/C++ source code generated on : Tue Oct 17 22:16:27 2023
+ * C/C++ source code generated on : Wed Oct 18 09:30:27 2023
  *
  * Target selection: autosar.tlc
  * Embedded hardware selection: Intel->x86-64 (Windows64)
@@ -905,8 +905,6 @@ void DHM_Stall(SInt16 rtu_SI_s_CurrentPos, uint8 rtu_SI_e_MotorCmd, boolean
 void DHM_Step(void)                    /* Explicit Task: DHM_Step */
 {
   /* local block i/o variables */
-  UInt8 rtb_TmpSignalConversionAtVeINP_;
-  UInt8 rtb_TmpSignalConversionAtVeIN_b;
   uint8 rtb_SO_e_MotorCmd;
   uint8 rtb_SO_e_MotorPwm;
   uint8 rtb_SO_e_MotorCmd_h;
@@ -916,6 +914,8 @@ void DHM_Step(void)                    /* Explicit Task: DHM_Step */
   HndPos_Sts_E rtb_SO_m_DoorHndPosSts_i;
   SInt16 tmpRead;
   SInt16 tmpRead_0;
+  UInt8 rtb_TmpSignalConversionAtVeINP_;
+  UInt8 rtb_TmpSignalConversionAtVeIN_k;
   UInt8 tmpRead_1;
   UInt8 tmpRead_2;
   boolean SO_b_CorrectPosToZero_h;
@@ -968,17 +968,17 @@ void DHM_Step(void)                    /* Explicit Task: DHM_Step */
    *  Inport: '<Root>/VeINP_CAN_RRDoorHandleReq_sig_VeINP_CAN_RRDoorHandleReq_sig'
    */
   (void)Rte_Read_VeINP_CAN_RRDoorHandleReq_sig_VeINP_CAN_RRDoorHandleReq_sig
-    (&rtb_TmpSignalConversionAtVeIN_b);
+    (&rtb_TmpSignalConversionAtVeIN_k);
 
   /* RelationalOperator: '<S6>/Compare' incorporates:
    *  Constant: '<S6>/Constant'
    */
-  DHM_B.Compare_m = (rtb_TmpSignalConversionAtVeIN_b == 1);
+  DHM_B.Compare_m = (rtb_TmpSignalConversionAtVeIN_k == 1);
 
   /* RelationalOperator: '<S7>/Compare' incorporates:
    *  Constant: '<S7>/Constant'
    */
-  DHM_B.Compare_j2 = (rtb_TmpSignalConversionAtVeIN_b == 2);
+  DHM_B.Compare_j2 = (rtb_TmpSignalConversionAtVeIN_k == 2);
 
   /* SignalConversion generated from: '<S2>/VbINP_CAN_DoorHandleLrnReq_flg_VbINP_CAN_DoorHandleLrnReq_flg_read' incorporates:
    *  Inport: '<Root>/VbINP_CAN_DoorHandleLrnReq_flg_VbINP_CAN_DoorHandleLrnReq_flg'
@@ -1052,8 +1052,8 @@ void DHM_Step(void)                    /* Explicit Task: DHM_Step */
 
   /* Chart: '<S13>/CtrlLogic' */
   DHM_CtrlLogic(DHM_B.TmpSignalConversionAtVsINP_HW_n, DHM_B.SO_s_MaxSoftPos,
-                DHM_B.SO_s_MinSoftPos, DHM_B.SO_s_IceBrkPos, DHM_B.Compare_j2,
-                DHM_B.Compare_m, DHM_B.SO_m_LearnSts, DHM_B.SO_b_Learning,
+                DHM_B.SO_s_MinSoftPos, DHM_B.SO_s_IceBrkPos, DHM_B.Compare_m,
+                DHM_B.Compare_j2, DHM_B.SO_m_LearnSts, DHM_B.SO_b_Learning,
                 &DHM_B.SO_e_MotorCmd, &DHM_B.SO_e_MotorPwm,
                 &SO_b_CorrectPosToZero_h, &DHM_DW.sf_CtrlLogic_g);
 

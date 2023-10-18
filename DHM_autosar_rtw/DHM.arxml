@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 Auto generated XML Component Description for model DHM
-Model version                : 1.7
+Model version                : 1.10
 Simulink Coder version       : Simulink Coder 9.7 (R2022a) 13-Nov-2021
-XML source code generated on : Tue Oct 17 22:16:31 2023
-Model Checksum               : 1624356965 3075016132 3046529034 2310100637
+XML source code generated on : Wed Oct 18 09:30:34 2023
+Model Checksum               : 3031320023 1637969220 1025118446 3527531076
 -->
 <AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-3-1.xsd">
     <AR-PACKAGES>
