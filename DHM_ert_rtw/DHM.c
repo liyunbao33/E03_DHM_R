@@ -3,9 +3,9 @@
  *
  * Code generated for Simulink model 'DHM'.
  *
- * Model version                  : 1.8
+ * Model version                  : 1.10
  * Simulink Coder version         : 9.7 (R2022a) 13-Nov-2021
- * C/C++ source code generated on : Wed Oct 18 09:07:28 2023
+ * C/C++ source code generated on : Wed Oct 18 09:16:55 2023
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: Intel->x86-64 (Windows64)
@@ -1024,8 +1024,8 @@ void DHM_Step(void)                    /* Explicit Task: DHM_Step */
    */
   DHM_CtrlLogic(DHM_U.VsINP_HWA_RRHandleHall_sig_VsIN, DHM_B.SO_s_MaxSoftPos,
                 DHM_B.SO_s_MinSoftPos, DHM_B.SO_s_IceBrkPos,
-                DHM_U.VeINP_CAN_RRDoorHandleReq_sig_V == 2,
-                DHM_U.VeINP_CAN_RRDoorHandleReq_sig_V == 1, DHM_B.SO_m_LearnSts,
+                DHM_U.VeINP_CAN_RRDoorHandleReq_sig_V == 1,
+                DHM_U.VeINP_CAN_RRDoorHandleReq_sig_V == 2, DHM_B.SO_m_LearnSts,
                 DHM_B.SO_b_Learning, &SO_e_MotorPwm_i, &rtb_SO_e_MotorPwm_d,
                 &SO_b_CorrectPosToZero_h, &DHM_DW.sf_CtrlLogic_g);
 
