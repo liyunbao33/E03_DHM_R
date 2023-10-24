@@ -7,7 +7,7 @@
    This file is generated for:
    Atomic software component:  "DHM"
    ARXML schema: "4.3"
-   File generated on: "18-Oct-2023 09:30:32"  */
+   File generated on: "24-Oct-2023 17:38:58"  */
 
 #ifndef Rte_DHM_h
 #define Rte_DHM_h
@@ -66,18 +66,6 @@ Std_ReturnType
 Std_ReturnType
   Rte_Read_VeINP_EPRM_RRDoorHandleLrnStsFromEE_sig_VeINP_EPRM_RRDoorHandleLrnStsFromEE_sig
   (UInt8* u);
-
-#define Rte_Read_VsINP_EPRM_FRDoorHandleFromEE_sig_VsINP_EPRM_FRDoorHandleFromEE_sig Rte_Read_DHM_VsINP_EPRM_FRDoorHandleFromEE_sig_VsINP_EPRM_FRDoorHandleFromEE_sig
-
-Std_ReturnType
-  Rte_Read_VsINP_EPRM_FRDoorHandleFromEE_sig_VsINP_EPRM_FRDoorHandleFromEE_sig
-  (SInt16* u);
-
-#define Rte_Read_VsINP_EPRM_RRDoorHandleFromEE_sig_VsINP_EPRM_RRDoorHandleFromEE_sig Rte_Read_DHM_VsINP_EPRM_RRDoorHandleFromEE_sig_VsINP_EPRM_RRDoorHandleFromEE_sig
-
-Std_ReturnType
-  Rte_Read_VsINP_EPRM_RRDoorHandleFromEE_sig_VsINP_EPRM_RRDoorHandleFromEE_sig
-  (SInt16* u);
 
 #define Rte_Read_VsINP_HWA_PassHandleHall_sig_VsINP_HWA_PassHandleHall_sig Rte_Read_DHM_VsINP_HWA_PassHandleHall_sig_VsINP_HWA_PassHandleHall_sig
 

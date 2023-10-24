@@ -3,9 +3,9 @@
  *
  * Code generated for Simulink model 'DHM'.
  *
- * Model version                  : 1.10
+ * Model version                  : 1.11
  * Simulink Coder version         : 9.7 (R2022a) 13-Nov-2021
- * C/C++ source code generated on : Wed Oct 18 09:16:55 2023
+ * C/C++ source code generated on : Tue Oct 24 17:35:14 2023
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: Intel->x86-64 (Windows64)
@@ -38,10 +38,7 @@ typedef struct {
   uint8_T is_active_c1_DoorHndDriver;  /* '<S12>/CtrlLogic' */
   uint8_T is_Ctrl;                     /* '<S12>/CtrlLogic' */
   uint8_T is_Unfold;                   /* '<S12>/CtrlLogic' */
-  uint8_T is_Icebreak;                 /* '<S12>/CtrlLogic' */
   uint8_T is_Fold;                     /* '<S12>/CtrlLogic' */
-  uint8_T SL_e_CycleCount;             /* '<S12>/CtrlLogic' */
-  uint8_T SL_e_IceBrkCount;            /* '<S12>/CtrlLogic' */
   uint8_T temporalCounter_i1;          /* '<S12>/CtrlLogic' */
   boolean_T SI_b_DoorHndUnfoldReq_prev;/* '<S12>/CtrlLogic' */
   boolean_T SI_b_DoorHndUnfoldReq_start;/* '<S12>/CtrlLogic' */
@@ -54,65 +51,27 @@ typedef struct {
   uint8_T is_active_c5_DoorHndDriver;  /* '<S12>/DoorHndPos' */
 } DW_DoorHndPos_DHM_T;
 
-/* Block states (default storage) for system '<S12>/LearnLogic' */
-typedef struct {
-  uint16_T temporalCounter_i1;         /* '<S12>/LearnLogic' */
-  uint8_T is_active_c3_DoorHndDriver;  /* '<S12>/LearnLogic' */
-  uint8_T is_c3_DoorHndDriver;         /* '<S12>/LearnLogic' */
-  uint8_T is_LearnLogic;               /* '<S12>/LearnLogic' */
-  uint8_T SL_e_AutoLearnCount;         /* '<S12>/LearnLogic' */
-  uint8_T SL_e_tempPos;                /* '<S12>/LearnLogic' */
-  boolean_T SI_b_LearnReq_prev;        /* '<S12>/LearnLogic' */
-  boolean_T SI_b_LearnReq_start;       /* '<S12>/LearnLogic' */
-} DW_LearnLogic_DHM_T;
-
 /* Block states (default storage) for system '<S12>/MotorLogic' */
 typedef struct {
   uint8_T is_active_c4_DoorHndDriver;  /* '<S12>/MotorLogic' */
 } DW_MotorLogic_DHM_T;
 
-/* Block states (default storage) for system '<S12>/Stall' */
-typedef struct {
-  int16_T SL_s_CurrentPos_Old;         /* '<S12>/Stall' */
-  uint8_T is_active_c2_DoorHndDriver;  /* '<S12>/Stall' */
-  uint8_T is_Stall_Handler;            /* '<S12>/Stall' */
-  uint8_T temporalCounter_i1;          /* '<S12>/Stall' */
-} DW_Stall_DHM_T;
-
 /* Block signals (default storage) */
 typedef struct {
-  int16_T SO_s_MaxSoftPos;             /* '<S13>/DoorHndPos' */
-  int16_T SO_s_MinSoftPos;             /* '<S13>/DoorHndPos' */
-  int16_T SO_s_IceBrkPos;              /* '<S13>/DoorHndPos' */
-  int16_T SO_s_MaxSoftPos_j;           /* '<S12>/DoorHndPos' */
-  int16_T SO_s_MinSoftPos_d;           /* '<S12>/DoorHndPos' */
-  int16_T SO_s_IceBrkPos_f;            /* '<S12>/DoorHndPos' */
   uint8_T SO_e_LearnMotorCmd;          /* '<S13>/LearnLogic' */
   uint8_T SO_e_LearnMotorPwm;          /* '<S13>/LearnLogic' */
   uint8_T SO_e_LearnMotorCmd_p;        /* '<S12>/LearnLogic' */
   uint8_T SO_e_LearnMotorPwm_f;        /* '<S12>/LearnLogic' */
-  boolean_T SO_b_HallStall;            /* '<S13>/Stall' */
-  boolean_T SO_b_Learning;             /* '<S13>/LearnLogic' */
-  boolean_T SO_b_HallStall_g;          /* '<S12>/Stall' */
-  boolean_T SO_b_Learning_n;           /* '<S12>/LearnLogic' */
   Learn_Sts_E SO_m_LearnSts;           /* '<S13>/LearnLogic' */
   Learn_Sts_E SO_m_LearnSts_n;         /* '<S12>/LearnLogic' */
 } B_DHM_T;
 
 /* Block states (default storage) for system '<Root>' */
 typedef struct {
-  int16_T UnitDelay5_DSTATE;           /* '<S12>/Unit Delay5' */
-  int16_T UnitDelay5_DSTATE_c;         /* '<S13>/Unit Delay5' */
-  uint8_T UnitDelay1_DSTATE;           /* '<S12>/Unit Delay1' */
-  uint8_T UnitDelay1_DSTATE_m;         /* '<S13>/Unit Delay1' */
-  DW_Stall_DHM_T sf_Stall_n;           /* '<S13>/Stall' */
   DW_MotorLogic_DHM_T sf_MotorLogic_j; /* '<S13>/MotorLogic' */
-  DW_LearnLogic_DHM_T sf_LearnLogic_f; /* '<S13>/LearnLogic' */
   DW_DoorHndPos_DHM_T sf_DoorHndPos_g; /* '<S13>/DoorHndPos' */
   DW_CtrlLogic_DHM_T sf_CtrlLogic_g;   /* '<S13>/CtrlLogic' */
-  DW_Stall_DHM_T sf_Stall;             /* '<S12>/Stall' */
   DW_MotorLogic_DHM_T sf_MotorLogic;   /* '<S12>/MotorLogic' */
-  DW_LearnLogic_DHM_T sf_LearnLogic;   /* '<S12>/LearnLogic' */
   DW_DoorHndPos_DHM_T sf_DoorHndPos;   /* '<S12>/DoorHndPos' */
   DW_CtrlLogic_DHM_T sf_CtrlLogic;     /* '<S12>/CtrlLogic' */
 } DW_DHM_T;

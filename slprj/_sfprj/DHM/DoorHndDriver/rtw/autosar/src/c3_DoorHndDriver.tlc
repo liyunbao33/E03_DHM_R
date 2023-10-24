@@ -7,67 +7,11 @@
 %endfunction
 %function ChartDataMap(block, system) void
   %createrecord ChartDataElements {\
-    NumChartData   8 \
+    NumChartData   0 \
     ChartDataDefaults {\
       RecordType   "ChartData"\
       Dimensions   []\
       IsTestPoint  0\
-    }\
-    ChartData {\
-      Name         "is_active_c3_DoorHndDriver"\
-      Description  "StateIsActive"\
-      SFName       ""\
-      Path         ""\
-      SrcLocation  ""\
-    }\
-    ChartData {\
-      Name         "is_c3_DoorHndDriver"\
-      Description  "StateActiveChild"\
-      SFName       ""\
-      Path         ""\
-      SrcLocation  ""\
-    }\
-    ChartData {\
-      Name         "is_LearnLogic"\
-      Description  "StateActiveChild"\
-      SFName       ""\
-      Path         "LearnLogic"\
-      SrcLocation  ""\
-    }\
-    ChartData {\
-      Name         "SL_e_AutoLearnCount"\
-      Description  "ChartLocal"\
-      SFName       ""\
-      Path         "SL_e_AutoLearnCount"\
-      SrcLocation  ""\
-    }\
-    ChartData {\
-      Name         "SL_e_tempPos"\
-      Description  "ChartLocal"\
-      SFName       ""\
-      Path         "SL_e_tempPos"\
-      SrcLocation  ""\
-    }\
-    ChartData {\
-      Name         "temporalCounter_i1"\
-      Description  "TemporalCounter"\
-      SFName       ""\
-      Path         ""\
-      SrcLocation  ""\
-    }\
-    ChartData {\
-      Name         "SI_b_LearnReq_prev"\
-      Description  "ChangeDetectionDoubleBuffer"\
-      SFName       ""\
-      Path         "SI_b_LearnReq"\
-      SrcLocation  ""\
-    }\
-    ChartData {\
-      Name         "SI_b_LearnReq_start"\
-      Description  "ChangeDetectionDoubleBuffer"\
-      SFName       ""\
-      Path         "SI_b_LearnReq"\
-      SrcLocation  ""\
     }\
   }
   %return ChartDataElements
